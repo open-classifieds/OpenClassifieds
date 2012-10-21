@@ -1,5 +1,5 @@
-Open Classifieds 1.8.2
-Release date:   30/09/2012
+Open Classifieds 1.8.3
+Release date:   30/10/2012
 License:        GPL v3
 Installation:   http://open-classifieds.com/install/
 Support:        http://open-classifieds.com/support/
@@ -9,6 +9,9 @@ Changelog:
 
 
 ###############################################
+
+1.8.3
+
 
 1.8.2
 New Captcha system (be carefull on upgrade you custom themes)
