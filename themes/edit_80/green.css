@@ -1,0 +1,72 @@
+blockquote{border-color: #83B82E;}
+
+h1
+{ background: transparent;
+  color: #83B82E;
+}
+
+#links_container
+{ background: #95C359;
+  color: #FFF;
+  border-top-color: #E2E2E2;
+  border-bottom-color: #6C6C6C;
+}
+
+#footer
+{ background: #555;
+  color: #FFF;
+  border-color: #83B82E;
+}
+
+#links a, #footer a:hover, #logo, #logo h1
+{ background: transparent;
+  color: #FFF;
+}
+
+#links a:hover, #logo h2, #column2, .sidebaritem, #column2 a
+{ background: transparent;
+  color: #555;
+}
+
+#content{background: url(side.png) right repeat-y;}
+
+#menu
+{ background: #444 url(menu.png);
+  color: #FFF;
+  border-color: #000;
+}
+
+#menu li a
+{ background: transparent;
+  color: #E2E2E2;
+  border-color: #6C6C6C;
+}
+
+#menu li a:hover, #menu li a#selected, #menu li a#selected:hover, #footer a
+{ background: #555;
+  color: #83B82E;
+} 
+
+#column2 a
+{ background: #FFF;
+  color: #83B82E;
+}
+
+#column2 a:hover
+{ background: #FFF;
+  color: #555;
+}
+
+.sbilinks li a, .sidebaritem a
+{ background: transparent url(arrow.png) no-repeat left center;
+  color: #555;
+} 
+
+.sbilinks li a:hover, .sidebaritem a:hover
+{ background: transparent url(green_arrow.png) no-repeat left center;
+  color: #555;
+} 
+
+.post{border-top : 1px solid #94C65A; width:100%;}
+.thumb{border: 2px solid #94C65A; width: 100px;height: 75px;}
+.category{border-bottom : 1px solid #94C65A;}

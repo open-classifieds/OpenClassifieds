@@ -1,0 +1,11 @@
+body, h1, p{border:0; margin:0; padding:0;}
+body{font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+#header{padding:10px;background:#444444;color:#FFFFFF;}
+#header a{color:#FFFFFF;text-decoration:none;}
+#content{padding:10px;}
+h1{font-size:14px; font-weight:bold;}
+h1 a:link, a:visited{color:#0033CC;}
+.item {padding:10px;border-bottom:solid 1px #DEDEDE;color:#999999;font-size:11px;}
+#footer{padding:10px;border-top:solid 1px #DEDEDE;color:#999999;font-size:11px;}
+#footer a:link, #footer a:visited{color:#666666;}
+#sysmessage {font-size: 12px;font-weight: bold;color: #000;text-align: center;}

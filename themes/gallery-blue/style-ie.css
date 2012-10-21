@@ -1,0 +1,18 @@
+/*  This template was created by Mantis-a [http://www.mantisa.cz/]. For more templates visit Free website templates [http://www.mantisatemplates.com/]. */
+
+
+
+/* CSS Document for IE 6 and lower */
+
+.galerie {
+_height: 1px;
+}
+
+.foto:hover, .foto.hover, .fotoHover {
+background-color: #D6ECF8;
+border: 1px solid #82B7DF;
+}
+
+div.foto {
+behavior: url('../hover.htc');
+}

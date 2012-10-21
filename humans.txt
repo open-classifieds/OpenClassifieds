@@ -1,0 +1,23 @@
+/* TEAM */           
+        
+Project Leader: Chema Garrido.                       
+Site: http://dontcode.com                         
+Twitter: deambulando             
+Location: Barcelona, Spain.
+
+FrontEnd Developer: Roberto Stringa.
+Site: http://www.rstringa.com.ar
+From: La Plata, Argentina.
+
+PHP Developer: Arnaldo Hidalgo.
+Site: http://bitnezz.com
+From: Cuba.
+						
+/* THANKS */						
+Name: Open Classifieds community and developers
+                        
+/* SITE */                
+Last update: 2012/08/30.                         
+Standards: HTML5, CSS3.
+Components: Twitter Bootstrap, jQuery.
+Software: PHP, MySQL, Ubuntu, Eclipse.

@@ -1,0 +1,229 @@
+﻿<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>PLANTILLA CORREO ELECTRONICO</title>
+    <style type="text/css" media="screen">
+        body
+        {
+            background-color: #e6e6e6;
+            margin: 0;
+            padding: 0;
+        }
+        a img
+        {
+            border: none;
+        }
+        table.main
+        {
+            background-color: #ffffff;
+        }
+        td.permission
+        {
+            padding: 10px 0 10px 0;
+        }
+        td.permission p
+        {
+            font-family: Arial;
+            font-size: 11px;
+            font-weight: normal;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        td.permission p a
+        {
+            font-family: Arial;
+            font-size: 11px;
+            font-weight: normal;
+            color: #333333;
+        }
+        td.header
+        {
+            background-color: #4babc5;
+            padding: 0 0 2px 0;
+        }
+        td.header h1
+        {
+            font-family: 'Gill Sans' , 'Arial Black' , sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            color: #ffffff;
+            margin: 0 0 0 10px;
+            padding: 0;
+            display: inline;
+        }
+        td.date
+        {
+            padding: 8px 0 8px 0;
+        }
+        td.date p
+        {
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: normal;
+            color: #666666;
+            margin: 0;
+            padding: 0;
+        }
+        td.sidebar ul
+        {
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: normal;
+            color: #000000;
+            margin: 10px 0 10px 24px;
+            padding: 0;
+        }
+        td.sidebar ul li a
+        {
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: normal;
+            color: #000000;
+            text-decoration: none;
+        }
+        td.sidebar p
+        {
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: normal;
+            color: #4c4c4c;
+            margin: 10px 0 0 0;
+            padding: 0;
+        }
+        td.sidebar p a
+        {
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: normal;
+            color: #6cb9ce;
+        }
+        td.sidebar h4
+        {
+            font-family: Georgia;
+            font-size: 13px;
+            font-weight: bold;
+            color: #333333;
+            margin: 14px 0 0 0;
+            padding: 0;
+        }
+        td.sideHeader h3
+        {
+            font-family: Georgia, serif;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        td.sideTitle h3
+        {
+            font-family: Georgia, serif;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        td.mainbar h2
+        {
+            font-family: Georgia;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        td.mainbar h2 a
+        {
+            font-family: Georgia;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        td.mainbar p
+        {
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: normal;
+            color: #4c4c4c;
+            margin: 10px 0 0 0;
+            padding: 0;
+        }
+        td.mainbar p.more
+        {
+            padding: 0 0 10px 0;
+        }
+        td.mainbar p a
+        {
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: normal;
+            color: #6cb9ce;
+        }
+        td.mainbar p img
+        {
+            border-bottom: 4px solid #edc913;
+        }
+        td.mainbar ul
+        {
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: normal;
+            color: #4c4c4c;
+            margin: 10px 0 10px 0;
+            padding: 0;
+            list-style-position: inside;
+        }
+        td.footer
+        {
+            padding: 10px 0 10px 0;
+        }
+        td.footer p
+        {
+            font-family: Arial;
+            font-size: 11px;
+            font-weight: normal;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <table width="100%" cellspacing="10" cellpadding="0">
+        <tr>
+            <td align="center" valign="top">
+                <table width="580" border="0" cellspacing="0" cellpadding="0" class="main">
+                    <tr>
+                        <td align="center">
+                            <table width="550" cellspacing="0" cellpadding="0">
+                                <tr align="left" valign="top">
+                                    <td width="550" valign="top" class="mainbar" align="left">
+                                        <p style="text-align: right;">
+                                            %DATE%</p>
+                                        <p>
+                                            Estimado %ACCOUNT%,</p>
+                                        <p>
+                                            %MESSAGE%</p>
+                                        <p>
+                                            Saludos,<br />
+                                            %SITE_NAME%</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="footer">
+                            <p>
+                                <span style="font-weight: bold;">%SITE_NAME%</span></p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

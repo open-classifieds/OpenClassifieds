@@ -1,0 +1,2059 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OC 1.7.\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-06 11:00+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Chema <chema@garridodiaz.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: T_;_e\n"
+"X-Poedit-SearchPath-0: /home/chema/Desktop/workspace/openclassifieds\n"
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:11
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:120
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:140
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:14
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:29
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:46
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:44
+msgid "Contact"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:13
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:15
+msgid "contacted you about the Ad"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:16
+msgid "Do not answer this email, answer to this account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:18
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:41
+msgid "User"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:24
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:47
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:19
+msgid "Message sent, thank you"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:26
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:21
+msgid "Oops! Spam? If it was not spam, contact us"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:28
+msgid "Wrong email address"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:30
+msgid "Wrong Captcha"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:36
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:152
+msgid "Remember"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:38
+msgid "To edit the post click here"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:66
+msgid "Publish Date"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:67
+msgid "Contact name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:78
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:51
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:22
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:128
+msgid "Location"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:81
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:59
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:135
+msgid "Place"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:83
+msgid "Map"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:87
+msgid "times displayed"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:88
+msgid "Comments"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:95
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:96
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:115
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:188
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:189
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:192
+msgid "Picture"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:107
+msgid "Share"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:114
+msgid "Report bad use or Spam"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:122
+msgid "Phone"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:125
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:32
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:94
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:177
+msgid "Your Name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:128
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:34
+msgid "Email"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:131
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:38
+msgid "Message"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:144
+msgid "This Ad is no longer available"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/item.php:145
+msgid "Reminder email with links to edit and deactivate"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/index.php:20
+msgid "Post Ad in"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/index.php:72
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/index.php:49
+msgid "Edit"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/index.php:73
+#: /home/chema/Desktop/workspace/openclassifieds/index.php:75
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/index.php:50
+msgid "Deactivate"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/index.php:76
+#: /home/chema/Desktop/workspace/openclassifieds/index.php:78
+msgid "Spam"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/index.php:79
+#: /home/chema/Desktop/workspace/openclassifieds/index.php:81
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/index.php:52
+msgid "Delete"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/index.php:88
+#: /home/chema/Desktop/workspace/openclassifieds/content/404.php:9
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:204
+msgid "Nothing found"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/index.php:99
+msgid "Page"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/index.php:123
+msgid "Previous"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/index.php:132
+msgid "Next"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:23
+msgid "Wrong email"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:25
+msgid "Wrong captcha"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:28
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:45
+msgid "Suggest new category"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/contact.php:36
+msgid "Subject"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/search.php:10
+#: /home/chema/Desktop/workspace/openclassifieds/content/404.php:13
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:36
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:40
+msgid "Advanced Search"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:25
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:46
+msgid "Publish a new Ad"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:28
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:115
+msgid "Category"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:44
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:121
+msgid "Type"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:46
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:123
+msgid "offer"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:47
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:124
+msgid "need"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:75
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:153
+msgid "Title"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:79
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:157
+msgid "Description"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:99
+msgid "Email (not published)"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:103
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:179
+msgid "Your Phone (published)"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:106
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:172
+msgid "YouTube video"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:113
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:182
+msgid "Upload pictures max file size"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:113
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:182
+msgid "format"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:125
+msgid "Price to post using Paypal: "
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:126
+msgid "Post it!"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-new.php:131
+msgid "NO Spam!"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:10
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:37
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:41
+msgid "Sitemap"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:11
+msgid "Categories"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:33
+msgid "Links"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:38
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:42
+msgid "Privacy Policy"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/site-map.php:47
+msgid "Administrator"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:57
+msgid "To confirm your Ad click here"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:62
+msgid "If this Ad is no longer available please click here"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:66
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/index.php:51
+msgid "Activate"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:113
+msgid "Edit Ad"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:184
+msgid "These images will be permanently removed if you upload new ones"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/item-manage.php:200
+msgid "Update"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/settings.php:18
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/settings.php:19
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/index.php:19
+msgid "Settings"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/settings.php:19
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/index.php:19
+msgid "My Account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/settings.php:19
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/index.php:19
+msgid "Logout"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/settings.php:27
+msgid "Passwords do not match"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/settings.php:32
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/settings.php:37
+msgid "Your account has been updated"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/settings.php:46
+msgid "Name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/settings.php:48
+msgid "Password"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/settings.php:50
+msgid "Confirm password"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/settings.php:53
+msgid "Submit"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/index.php:17
+msgid "Welcome"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/index.php:21
+msgid "My Classified Ads"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/index.php:53
+msgid "Confirm"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/login.php:13
+msgid "Login"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/login.php:27
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/recoverpassword.php:32
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:75
+msgid "Account not found"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/login.php:28
+msgid "Wrong password"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/login.php:29
+msgid "Account is disabled"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/login.php:42
+msgid "Remember me on this computer"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/login.php:45
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/recoverpassword.php:10
+msgid "Forgot My Password"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/login.php:49
+msgid "If you do not have an account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/login.php:49
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:10
+msgid "Register"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/recoverpassword.php:19
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/recoverpassword.php:28
+msgid "Your log on information"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/recoverpassword.php:31
+msgid "Your password has been sent"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/recoverpassword.php:31
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:48
+msgid "Please, check your email"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:27
+msgid "Account already exists"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:37
+msgid "Click the following link or copy and paste it into your browser address field to activate your account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:38
+msgid "Confirm account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:45
+msgid "Confirm your account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:48
+msgid "Instructions to confirm your account has been sent"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:49
+msgid "An unexpected error has occurred trying to register your account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:53
+msgid "Terms agreement is required"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:66
+msgid "Your account has been succesfully confirmed"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:68
+msgid "NEW account registered"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:69
+msgid "NEW account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:74
+msgid "An unexpected error has occurred trying to confirm your account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:90
+msgid "Accept"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/content/account/register.php:90
+msgid "Terms"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/themes/post-it-board/footer.php:57
+msgid "Send me an email with links to manage my Ad"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/themes/primitive/header.php:11
+#: /home/chema/Desktop/workspace/openclassifieds/themes/anunciamex/functions.php:11
+msgid "Home"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/themes/anunciamex/header.php:26
+#: /home/chema/Desktop/workspace/openclassifieds/themes/aqueous/header.php:35
+msgid "Filter"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/themes/gallery-blue/header.php:10
+msgid "Classifieds"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/themes/wpClassifieds/index.php:130
+msgid "Latest Ads"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:96
+msgid "Cannot connect to server"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:104
+msgid "No database name was given"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:104
+msgid "Available databases"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:134
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:481
+msgid "Requirements"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:135
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:616
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:784
+msgid "Path Settings"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:136
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:636
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:796
+msgid "Database"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:137
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:684
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:685
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:829
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:121
+msgid "Basic Configuration"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:138
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:761
+msgid "Review & Install"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:184
+msgid "Config"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:273
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:305
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:422
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:36
+msgid "Cannot write to the configuration file"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:279
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:311
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:428
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:41
+msgid "The configuration file"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:279
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:311
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:428
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:41
+msgid "is not writable"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:279
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:311
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:428
+msgid "Change its permissions, then try again"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:322
+msgid "Offer"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:325
+msgid "Need"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:331
+msgid "type"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:352
+msgid "Register new account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:436
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:443
+msgid "Congratulations"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:436
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:443
+msgid "Installation done"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:437
+msgid "Please now erase the folder"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:438
+msgid "Go to Your Website"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:440
+msgid "Make a donation"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:440
+msgid "We really appreciate it"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:455
+msgid "Error"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:456
+msgid "Go Back"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:462
+msgid "Welcome to"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:462
+msgid "installation"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:464
+msgid "Welcome to the super easy and fast installation"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:464
+msgid "If you need any help please check"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:464
+msgid "the forum"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:467
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:468
+msgid "Please read the following license agreement and accept the terms to continue"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:474
+msgid "I accept the license terms"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:477
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:600
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:632
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:679
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:756
+msgid "Continue"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:482
+msgid "Please carefully review the requirements check list below"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:483
+msgid "Server software"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:486
+msgid "version"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:486
+msgid "or higher"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:492
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:672
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:826
+msgid "Yes"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:495
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:826
+msgid "No"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:496
+msgid "Please upgrade"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:496
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:504
+msgid "in order to proceed"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:503
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:512
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:522
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:529
+msgid "Not found"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:504
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:513
+msgid "Please install"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:507
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:516
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:531
+msgid "Found"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:518
+msgid "URL rewriting"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:522
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:529
+msgid "it is strongly recommended to install it"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:523
+msgid "Cannot check if installed"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:526
+msgid "Language support"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:534
+msgid "Writeable folders"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:537
+msgid "Site root"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:537
+msgid "install will update"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:541
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:550
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:559
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:568
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:575
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:582
+msgid "OK - Writable"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:543
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:552
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:561
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:570
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:577
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:585
+msgid "File not found"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:545
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:554
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:563
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:571
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:578
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:589
+msgid "Unwritable (check permissions)"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:580
+msgid "mandatory to perform installation"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:597
+msgid "Please correct the items described above then click the button below to run the requirements check again"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:617
+msgid "Check your path settings"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:622
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:788
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:274
+msgid "Site URL"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:626
+msgid "Suggested path"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:627
+msgid "please check this carefully"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:639
+msgid "Please correct the items described above to continue"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:641
+msgid "Enter your MySQL database details below"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:646
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:800
+msgid "Host name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:651
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:805
+msgid "User name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:659
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:813
+msgid "Database name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:663
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:817
+msgid "Database charset"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:667
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:821
+msgid "Table prefix"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:668
+msgid "Allows multiple installations in one database if you give each one a unique prefix"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:668
+msgid "Only numbers, letters, and underscores"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:671
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:825
+msgid "Sample data"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:672
+msgid "Creates few sample categories and posts"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:685
+msgid "More settings available in the website admin"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:702
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:833
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:125
+msgid "Site Name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:707
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:837
+msgid "Email address"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:708
+msgid "for notifications, and set as recipient in the emails sent from the site"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:711
+msgid "Site Language"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:723
+msgid "you can add more languages in"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:726
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:845
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:153
+msgid "Time Zone"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:748
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:849
+msgid "Admin Name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:752
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:853
+msgid "Admin Password"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:762
+msgid "Please review the following summary and click the button below to install"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:792
+msgid "Path"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:841
+msgid "Site language"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/install/index.php:858
+msgid "Install"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:14
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:15
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:167
+msgid "New Category"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:27
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:28
+msgid "Edit Category"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:33
+msgid "Delete Category"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:67
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:120
+msgid "Category already exists"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:91
+msgid "There´s categories that belong to the selected category"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:92
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:101
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:89
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:98
+msgid "Move them to"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:100
+msgid "There´s posts that belong to the selected category"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:131
+msgid "Manage your website categories"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:149
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:171
+msgid "Order"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:153
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:172
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:142
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:156
+msgid "Parent"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/categories.php:161
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:146
+msgid "Cancel"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:12
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:13
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:152
+msgid "New Location"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:23
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:24
+msgid "Edit Location"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:29
+msgid "Delete Location"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:33
+msgid "Locations are disabled, please go to the settings to enable this feature."
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:35
+msgid "Locations"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:65
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:115
+msgid "Location already exists"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:88
+msgid "There´s locations that belong to the selected location"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:97
+msgid "There´s posts that belong to the selected location"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/locations.php:124
+msgid "Manage your website locations"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/stats.php:5
+msgid "Site Usage Statistics"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/stats.php:7
+msgid "Ads Views"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/stats.php:8
+#: /home/chema/Desktop/workspace/openclassifieds/admin/stats.php:15
+msgid "Yesterday"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/stats.php:9
+#: /home/chema/Desktop/workspace/openclassifieds/admin/stats.php:16
+msgid "Last week"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/stats.php:10
+#: /home/chema/Desktop/workspace/openclassifieds/admin/stats.php:17
+msgid "Last month"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/stats.php:11
+msgid "Total"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/stats.php:14
+msgid "Ads"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/stats.php:18
+msgid "Total Ads"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/listing.php:9
+msgid "Classified Ads"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/listing.php:16
+msgid "Your Ad was successfully updated"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/listing.php:19
+msgid "Your Ad was successfully activated"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/listing.php:22
+msgid "Your Ad was successfully deactivated"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/listing.php:25
+msgid "Spam reported"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/listing.php:28
+msgid "Your Ad was successfully deleted"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/listing.php:40
+msgid "Hits"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/listing.php:42
+msgid "Date"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/listing.php:130
+msgid "Search"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:41
+msgid "Change the permissions"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:129
+msgid "Notifications Email"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:133
+msgid "Language"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:149
+msgid "Locale Extension"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:178
+msgid "Administrator Login"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:182
+msgid "Administrator Password"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:188
+msgid "Database Configuration"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:192
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:230
+msgid "Host Name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:196
+msgid "Database Username"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:200
+msgid "Database Password"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:204
+msgid "Database Name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:208
+msgid "Database Charset"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:209
+msgid "IMPORTANT: If you change this be sure you change it in the database structure and maybe you need to change it in the HTML Charset as well"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:212
+msgid "Table Prefix"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:213
+msgid "Multiple installations in one database if you give each a unique prefix. Only numbers, letters, and underscores"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:216
+msgid "Type Offer"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:217
+msgid "Offer type value on database"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:220
+msgid "Type Need"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:221
+msgid "Need type value on database"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:226
+msgid "Mail Server Configuration"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:234
+msgid "Server Port"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:235
+msgid "Leave blank to use default SMTP port"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:238
+msgid "Authentication"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:242
+msgid "Enables SMTP authentication"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:245
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:260
+msgid "Username"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:257
+msgid "Uses GMAIL for SMTP, perfect if you do not have email server or you cannot manage to configure it"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:261
+msgid "Account Name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:265
+msgid "Account Password"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:270
+msgid "Initial Settings"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:278
+msgid "Site Description"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:282
+msgid "Site Full Path"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:283
+msgid "IMPORTANT: Path in the server"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:286
+msgid "HTML Charset"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:287
+msgid "IMPORTANT: maybe you need to change it in your database Charset as well"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:287
+msgid "List"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:290
+msgid "Date Format"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:295
+msgid "Use a date format"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:302
+msgid "Enables location features"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:305
+msgid "Logon to Post"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:309
+msgid "Require log on to post"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:312
+msgid "Posts counter"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:316
+msgid "Count the visitors per post"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:319
+msgid "Posts in parent"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:323
+msgid "Allow to post in parent categories"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:326
+msgid "Confirm Post"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:330
+msgid "Require email confirmation to activate post"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:333
+msgid "Expire posts"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:334
+msgid "Days that the post will expire, only numbers. 0 days = no expire"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:337
+msgid "Minimal search phrase length"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:338
+msgid "Search less than this number will not be performed"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:341
+msgid "Currency"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:342
+msgid "Price currency"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:345
+msgid "Currency Format"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:350
+msgid "Format to display price"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:353
+msgid "Location Root"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:354
+msgid "The root of all location. For example: Country name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:357
+msgid "Allowed Tags"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:358
+msgid "This tags are allowed on submit post"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:363
+msgid "Look and Feel"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:367
+msgid "Friendly URL's"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:371
+msgid "Disabled does not use the .htaccess, and the URLS will not look SEO friendly"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:374
+msgid "Default Theme"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:385
+msgid "For more themes please go to"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:388
+msgid "Theme Selector"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:392
+msgid "If you enable this you allow the user to select theme"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:395
+msgid "Mobile Theme"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:399
+msgid "Displays the mobile version of your site  to mobile devices if its enabled, (uses neoMobile theme)"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:402
+msgid "Items per Page"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:403
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:407
+msgid "Only numbers"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:406
+msgid "Pages to display"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:407
+msgid "How many pages are displayed"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:410
+msgid "HTML Editor"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:414
+msgid "Disable nicEdit HTML editor in the post"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:417
+msgid "HTML Separator"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:418
+msgid "Separator used in a few places"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:421
+msgid "Captcha"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:425
+msgid "Requires a math captcha before submitting any form"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:430
+msgid "Paypal Configuration"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:434
+msgid "Paypal Active"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:438
+msgid "Sets on/off the pay to post mode"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:441
+msgid "Paypal account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:442
+msgid "Your paypal address, remember to activate IPN"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:445
+msgid "Amount"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:446
+msgid "Amount you want the users to pay for posting."
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:449
+msgid "Paypal currency"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:483
+msgid "Currency to get the payments."
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:486
+msgid "Paypal sandbox"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:490
+msgid "Sets on/off the sanbox to test paypal payment"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:495
+msgid "Adsense and Advertising"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:499
+msgid "In this section you can paste your code of AdSense or any other provider and it will show in the website"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:502
+msgid "Top Advertisement"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:504
+msgid "HTML advertisement that appears in the top of the website"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:507
+msgid "Widget Advertisement"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:509
+msgid "HTML advertisement that appears in the sidebar"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:514
+msgid "Sidebar"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:522
+msgid "Available Widgets"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:538
+msgid "Your Sidebar"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:554
+msgid "RSS sidebar URL"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:558
+msgid "RSS sidebar Name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:562
+msgid "RSS sidebar Count"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:568
+msgid "Image Settings"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:572
+msgid "Number of Images"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:573
+msgid "Number of images that can be posted, 0 disable all the images"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:576
+msgid "Image Size"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:577
+msgid "Max image size allowed"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:580
+msgid "Image Folder"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:581
+msgid "Image upload directory name"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:584
+msgid "Image Full Path"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:585
+msgid "Full path where the images will be stored"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:588
+msgid "Image Types"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:589
+msgid "Type of images allowed, separated by comma"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:592
+msgid "Image Resize"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:593
+msgid "Size of the images uploaded"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:596
+msgid "Thumbs Resize"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:597
+msgid "Size of the thumbs generated"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:602
+msgid "Rss & Sitemap"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:606
+msgid "RSS Items"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:607
+msgid "Number of items to display in RSS"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:610
+msgid "RSS Images"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:614
+msgid "Display images in RSS"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:617
+msgid "Sitemap File Path"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:618
+msgid "Path for the sitemap"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:621
+msgid "Sitemap Expires"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:622
+msgid "Generates new sitemap after expire"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:625
+msgid "Sitemap deleted on post"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:629
+msgid "On new post generate new sitemap"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:632
+msgid "Sitemap on category"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:636
+msgid "On new/updated category generate new sitemap"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:639
+msgid "Sitemap ping to Google"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:643
+msgid "On any update will ping Google about the changes, before activate register your site at"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:643
+msgid "Google Webmaster Tools"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:649
+msgid "Cache Configuration"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:653
+msgid "Cache Active"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:657
+msgid "Sets on/off the cache system"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:660
+msgid "Cache type"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:672
+msgid "Sets the cache you want to use in the system"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:675
+msgid "Cache File Path"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:676
+msgid "Path for the cache"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:679
+msgid "Cache Expires"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:683
+msgid "Cache deleted on post"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:687
+msgid "On new post generate deletes the cache"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:690
+msgid "Cache deleted on category"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:694
+msgid "On new/updated category deletes the cache"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:699
+msgid "External Tools"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:704
+msgid "Code in the footer for tracking, for example: UA-4562297-13. Empty to disable"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:708
+msgid "Prevent spam"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:711
+msgid "Advanced spam by country"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:715
+msgid "If enabled check if country is in blacklist, using hostip.info service"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:718
+msgid "Countries blacklist"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:719
+msgid "Comma separated countries, this countries can't post content"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:723
+msgid "Displays Google Maps with posts"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:726
+msgid "Center Maps at"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:727
+msgid "Map would be centered in this address"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:727
+msgid "For example"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:731
+msgid "Account Name enables comments for posts threads with"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:734
+msgid "Video"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:738
+msgid "Allows YouTube videos on posts using [youtube=URLVIDEO]"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:745
+msgid "Enable/Disable Ocaku Classifieds Community"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:750
+msgid "API key to use Ocaku. Do not lose this! if you reinstall copy paste here the key."
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/settings.php:756
+msgid "Save Settings"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/index.php:5
+#: /home/chema/Desktop/workspace/openclassifieds/admin/header.php:11
+#: /home/chema/Desktop/workspace/openclassifieds/admin/header.php:23
+msgid "Administration"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/index.php:6
+msgid "Quick View"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/index.php:10
+msgid "Version"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/index.php:12
+msgid "Theme"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/index.php:14
+msgid "Total Views"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/index.php:21
+msgid "Blog Updates"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/index.php:22
+msgid "Support Forum"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/header.php:26
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:6
+msgid "Dashboard"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/header.php:27
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:7
+msgid "Listings"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/header.php:30
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:10
+msgid "Accounts"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/header.php:32
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:12
+msgid "Site Statistics"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/optimize.php:5
+msgid "Tools to Optimize"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/optimize.php:12
+msgid "All tables found in the database were optimized"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/optimize.php:16
+msgid "Cache was deleted"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/optimize.php:19
+#: /home/chema/Desktop/workspace/openclassifieds/admin/optimize.php:35
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:16
+msgid "Delete Ads not confirmed in 3 days"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/optimize.php:27
+msgid "Deleted"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/optimize.php:34
+#: /home/chema/Desktop/workspace/openclassifieds/admin/optimize.php:35
+#: /home/chema/Desktop/workspace/openclassifieds/admin/optimize.php:36
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:15
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:16
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:17
+#: /home/chema/Desktop/workspace/openclassifieds/admin/admin_sitemap.php:7
+msgid "Are you sure"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/optimize.php:34
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:15
+msgid "Delete Cache"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/optimize.php:36
+msgid "Optimize  all tables found in the database"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/optimize.php:37
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:20
+#: /home/chema/Desktop/workspace/openclassifieds/admin/phpinfo.php:6
+msgid "PHP Info"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:17
+msgid "Optimize Database Tables"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:18
+#: /home/chema/Desktop/workspace/openclassifieds/admin/backup.php:5
+msgid "Backup"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:24
+msgid "Advertise Here"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:26
+msgid "Please think about helping us with a donation. We need your support to maintain this software"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:42
+msgid "queries generated in"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/footer.php:42
+msgid "queries cached"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:21
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:22
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:60
+msgid "New Account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:32
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:33
+msgid "Update Account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:38
+msgid "Accounts (Logon to Post) are disabled, please go to the settings to enable this feature."
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:39
+msgid "Accounts list"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:65
+msgid "Active"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:66
+msgid "Date Created"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:88
+msgid "Your new account information"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:97
+msgid "Your new account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:99
+msgid "Account succesfully created"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:100
+msgid "An unexpected error has occurred trying to confirm the account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:101
+msgid "An unexpected error has occurred trying to register the account"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:120
+msgid "Account succesfully updated"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:134
+msgid "Activated"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:136
+msgid "Account successfully activated"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:144
+msgid "Deactivated"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:146
+msgid "Account successfully deactivated"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:163
+msgid "Removed"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:165
+msgid "Account successfully removed"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/accounts.php:170
+msgid "Actions performed"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/admin_sitemap.php:5
+msgid "Sitemap Generator"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/admin_sitemap.php:7
+msgid "Click"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/admin_sitemap.php:7
+msgid "minutes"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/admin_sitemap.php:16
+msgid "Open Sitemap"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/htaccess.php:118
+msgid "Change its permissions and try again"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/htaccess.php:121
+msgid "Updated"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/backup.php:12
+msgid "Click the button below to download a database backup"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/admin/login.php:12
+msgid "Administration Login"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/common.php:312
+msgid "How much is"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/seo.php:97
+msgid "page"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/seo.php:220
+msgid "terms"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/menu.php:70
+msgid "Popular"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/menu.php:88
+#: /home/chema/Desktop/workspace/openclassifieds/includes/menu.php:92
+#: /home/chema/Desktop/workspace/openclassifieds/includes/menu.php:101
+#: /home/chema/Desktop/workspace/openclassifieds/includes/menu.php:102
+msgid "All"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/search-advanced.php:33
+#: /home/chema/Desktop/workspace/openclassifieds/includes/search-advanced.php:38
+#: /home/chema/Desktop/workspace/openclassifieds/includes/search-advanced.php:39
+msgid "Price"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/search-advanced.php:34
+msgid "Sort"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/search-advanced.php:38
+msgid "Desc"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/search-advanced.php:39
+msgid "Asc"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/item-common.php:261
+msgid "If you want to see your Ad click here"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/item-common.php:263
+#: /home/chema/Desktop/workspace/openclassifieds/includes/item-common.php:481
+#: /home/chema/Desktop/workspace/openclassifieds/includes/item-common.php:489
+msgid "If you want to edit your Ad click here"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/item-common.php:312
+msgid "Your Ad was successfully activated, thank you"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/item-common.php:506
+msgid "Thank you! Check your email to confirm the post"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/footer.php:9
+msgid " queries generated in "
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/paypal.php:9
+msgid "Please wait while we transfer you to Paypal"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/paypal.php:16
+msgid "Pay to post in "
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/sidebar.php:88
+msgid "Views"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/sidebar.php:95
+msgid "Recommended"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/sidebar.php:108
+msgid "Most popular"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/sidebar.php:110
+msgid "Last Week"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/sidebar.php:119
+msgid "Classifieds tools"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/sidebar.php:148
+msgid "Menu"
+msgstr ""
+
+#: /home/chema/Desktop/workspace/openclassifieds/includes/sidebar.php:219
+msgid "Account"
+msgstr ""
+
