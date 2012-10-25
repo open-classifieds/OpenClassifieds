@@ -1,0 +1,41 @@
+ErrorDocument 404 /content/404.php
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteRule ^([0-9]+)$ content/index.php?page=$1 [L]
+RewriteRule ^install/$ install/index.php [L]
+RewriteRule ^admin/$ admin/index.php [L]
+RewriteRule ^rss/$ content/feed-rss.php [L]
+RewriteRule ^manage/$ content/item-manage.php [L]
+RewriteRule ^publish-a-new-ad.htm content/item-new.php [L]
+RewriteRule ^contact.htm content/contact.php [L]
+RewriteRule ^terms.htm content/terms.php [L]
+RewriteRule ^privacy-policy.htm content/privacy.php [L]
+RewriteRule ^sitemap.htm content/site-map.php [L]
+RewriteRule ^advanced-search.htm content/search.php [L]
+RewriteRule ^map.htm content/map.php [L]
+RewriteRule ^register-new-account.htm content/account/register.php [L]
+RewriteRule ^login.htm content/account/login.php [L]
+RewriteRule ^logout.htm content/account/logout.php [L]
+RewriteRule ^forgot-my-password.htm content/account/recoverpassword.php [L]
+RewriteRule ^settings.htm content/account/settings.php [L]
+RewriteRule ^my-account/$ content/account/index.php [L]
+RewriteRule ^offer/(.+)/(.+)/$ content/index.php?category=$1&type=0&location=$2 [L]
+RewriteRule ^offer/(.+)$ content/index.php?category=$1&type=0  [L]
+RewriteRule ^need/(.+)/(.+)/$ content/index.php?category=$1&type=1&location=$2 [L]
+RewriteRule ^need/(.+)$ content/index.php?category=$1&type=1 [L]
+RewriteRule ^classifieds/(.+)/([0-9]+)$ content/index.php?location=$1&page=$2 [L]
+RewriteRule ^classifieds/(.+)/$ content/index.php?location=$1 [L]
+RewriteRule ^(.+)/(.+)/(.+)/$ content/index.php?category=$2&location=$3 [L]
+RewriteRule ^(.+)/(.+)/$ content/index.php?category=$2 [L]
+RewriteRule ^category/(.+) $1/ [R=301,L]
+RewriteRule ^(.+)/(.+)/(.+)/([0-9]+)$ content/index.php?category=$2&location=$3&page=$4 [L]
+RewriteRule ^(.+)/$ content/index.php?category=$1 [L]
+RewriteRule ^(.+)/(.+)/([0-9]+)$ content/index.php?category=$2&page=$3 [L]
+RewriteRule ^(.+)/([0-9]+)$ content/index.php?category=$1&page=$2 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/(.+)/(.+)/(.+)$ /$3/$4-$1.htm [R=301,L]
+RewriteRule ^(.+)/(.+)/(.+)-([0-9]+).htm$  content/item.php?category=$2&item=$4 [L]
+RewriteRule ^(.+)/(.+)-([0-9]+).htm$  content/item.php?category=$1&item=$3 [L]
+</IfModule>
