@@ -1,2 +1,11 @@
 cache/*
 images/*
+includes/config.php
+themes/moderndeluxe/*
+themes/kamaleon/*
+themes/responsive/*
+themes/yenii/*
+robots.txt
+install.lock
+.htaccess
+sitemap.xml.gz
