@@ -576,7 +576,7 @@ function regenerateHtaccess($site_url)
 	if ($account=="") $account="my-account";
 	
 	$terms=u(T_("Terms"));
-	if ($terms=="") $account="terms";
+	if ($terms=="") $terms="terms";
 	
 	$new=u(T_("Publish a new Ad"));
 	if ($new=="") $new="publish-a-new-ad-for-free";
