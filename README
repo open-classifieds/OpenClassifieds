@@ -1,5 +1,5 @@
 Open Classifieds 1.8.3
-Release date:   30/10/2012
+Release date:   xx/xx/2012
 License:        GPL v3
 Installation:   http://open-classifieds.com/install/
 Support:        http://open-classifieds.com/support/
@@ -8,10 +8,13 @@ Support:        http://open-classifieds.com/support/
 Changelog:
 
 
+
 ###############################################
 
 1.8.3
 
+
+###############################################
 
 1.8.2
 New Captcha system (be carefull on upgrade you custom themes)
@@ -24,47 +27,6 @@ Bug images dates with mm-dd-yyy
 Improved theme settings
 New resize size for images to 900px
 Deleted backup tool, there's no eed since all hostings have such feature.
-
-Files:
-	/admin/
-		index.php
-		settings.php
-		header.php
-		optmize.php
-		- backup.php
-		- backup_db.php
-	/content/
-		/account/register.php
-		/js/
-			famfamfam.png
-			jquery.sceditor.min.js
-			sceditor.css
-			-nicEdit.js
-			-nicEditorIcons.gif
-		item.php
-		item-manage.php
-		item-new.php	
-		captcha.php
-		contact.php
-	/includes/
-		common.php
-		item-common.php
-		bootstrap.php
-		/classes/captcha.php
-		- /classes/dbbackup.php
-	/install/
-		header.php
-		index.php
-		install.php
-	/themes/
-		/hostpel/
-				header.php
-				item.php
-		/neoMobile/item.php
-		/post-it-board/footer.php
-		/wpClassifeids/
-					header.php
-					item.php
 						
 
 ###############################################
