@@ -12,6 +12,7 @@ Changelog:
 1.8.3
 Htaccess Terms bug
 SEO improvements for locations
+Need/Offer filter category bug
 
 files:
 /includes/common.php

@@ -178,7 +178,7 @@ function typeURL($type,$category){//returns de url for the type, if you change t
        else $params = "&location=".getLocationFriendlyName($location);
    }
 
-   if (!empty($category)) $category="all"; 
+   if (empty($category)) $category="all"; 
    if (FRIENDLY_URL) $url='/'.getTypeName($type).'/'.$category.$params;
    else $url='/content/index.php?category='.$category.'&type='.$type.$params;
    
