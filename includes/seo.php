@@ -49,12 +49,22 @@ elseif (isset($categoryName)) {
 		if (isset($type)) $html_title.=ucwords(getTypeName($type)).SEPARATOR;
 		$html_title.=$categoryName.SEPARATOR;
 		if ($categoryParent!=0) $html_title.=$selectedCategoryName.SEPARATOR;
-        if ($location!="") $html_title.=getLocationName($location).SEPARATOR;
+        if (isset($location)) $html_title.=getLocationName($location).SEPARATOR;
         $html_title.=SITE_NAME;//.SEPARATOR;	
 		
 	//end title
 	$html_description=$categoryDescription;	
 
+}
+//locations
+elseif (isset($location)) {
+  //title
+    //$html_title=T_("Classifieds")." ";
+    if (isset($type)) $html_title.=ucwords(getTypeName($type)).SEPARATOR;
+    $html_title.=getLocationName($location).SEPARATOR;
+    $html_title.=SITE_NAME;//.SEPARATOR;  
+    //end title
+  $html_description=$html_title; 
 }
 elseif ((strlen(cG("title"))>=MIN_SEARCH_CHAR) || strlen(cG("s"))>=MIN_SEARCH_CHAR){//search
     if (cG("title")!="")$html_title.=cG("title").' ';
@@ -68,7 +78,7 @@ elseif ( isHome()) {
 	//title
 		//$html_title=T_("Classifieds")." ";
 		if (isset($type)) $html_title.=ucwords(getTypeName($type)).SEPARATOR;
-		if ($location!="") $html_title.=getLocationName($location).SEPARATOR;
+		if (isset($location)) $html_title.=getLocationName($location).SEPARATOR;
 		//$html_title.=getCategories().SEPARATOR;
 		$html_title.=SITE_NAME;
 	//end title
