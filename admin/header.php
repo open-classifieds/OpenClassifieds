@@ -126,7 +126,7 @@ require_once('../includes/bootstrap.php');
 				<a href="optimize.php" ><?php _e("Tools to Optimize");?></a>
 			</li>
             <li  <?php if(strpos($_SERVER["REQUEST_URI"], "admin_sitemap.php") !== false){?>class="active"<?php }?>>
-				<a href="admin_sitemap.php"><?php _e("Sitemap");?></a>
+				<a href="admin_sitemap.php"><?php _e("Sitemap");?> &amp; robots.txt</a>
 			</li>
 			<li class="divider"></li>
 			<?php if (SAMBA){?>
