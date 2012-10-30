@@ -1,0 +1,52 @@
+/*  This template was created by Mantis-a [http://www.mantisa.cz/]. For more templates visit Free website templates [http://www.mantisatemplates.com/]. */
+
+
+
+/* CSS Document - print style sheet */
+
+
+body {
+font-family: "Times New Roman", Times, serif;
+line-height: 1.3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #595959;
+}
+
+h1 {
+font-size: 16pt;
+}
+
+h2 {
+font-size: 14pt;
+}
+
+h3, h4, h5, h6 {
+font-size: 11pt;
+}
+
+a:link, a:visited {
+text-decoration: underline;
+font-weight: bolder;
+}
+
+a img {
+border: 1px solid #595959;
+}
+
+.hidden {
+position: absolute;
+top: -10000px;
+left: 0;
+width: 1px;
+height: 1px;
+overflow: hidden;
+}
+
+.perex { margin-bottom: 60px; }
+
+#menu, form, form.searching, #content-box-in-right-in h3 {
+display: none;
+}
