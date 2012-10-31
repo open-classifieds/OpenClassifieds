@@ -87,5 +87,31 @@ class captcha{
         else return TRUE;
     }
     
+    /**
+     * javascript that allow us to reload the iamge in case you can't read it
+     * @return string javascript
+     */ 
+    public static function reload_image()
+    {
+        return '<script type="text/javascript">
+                function reloadImg(id) {
+                   var obj = document.getElementById(id);
+                   var src = obj.src;
+                   var date = new Date();
+                   obj.src = src + "&v=" + date.getTime();
+                   return false;
+                }</script>';
+    }
 
+    /**
+     * generates the HTML image tag to add in a form
+     * @param  string $name unique name for the image
+     * @return string       html tag
+     */
+    public static function image_tag($name='')
+    {
+        return self::reload_image().
+                '<img alt="captcha" id="captcha_img_'.$name.'" style="cursor: pointer;" title="Click to refresh" 
+                    onClick="return reloadImg(\'captcha_img_'.$name.'\');" src="'.captcha::url($name).'">';
+    }
 }

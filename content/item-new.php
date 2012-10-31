@@ -137,7 +137,7 @@ if (!isInSpamList(oc::get_ip())){//no spammer
 	<br />
 	<?php if (CAPTCHA){?>
     Captcha*:<br />
-	<img alt="captcha" src="<?php echo captcha::url('newitem');?>"><br />
+	<?php echo captcha::image_tag('newitem');?><br />
     <input id="captcha" name="captcha" type="text"  onblur="validateText(this);"  lang="false" /><br />
     <?php }?>
 	<?php

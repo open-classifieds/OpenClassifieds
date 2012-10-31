@@ -10,6 +10,7 @@ Changelog:
 
 ###############################################
 1.8.3
+Captcha reload image onclick
 Htaccess Terms bug
 SEO improvements for locations
 Need/Offer filter category bug
@@ -17,6 +18,29 @@ Need/Offer filter category bug
 files:
 /includes/common.php
 /includes/seo.php
+/includes/classes/captha.php
+/content/contact.php:
+/content/item-manage.php:
+/content/item-new.php:
+/content/item.php:
+/content/account/register.php:
+/themes/hostpel/item.php:
+/themes/neoMobile/item.php:
+/themes/post-it-board/footer.php:
+/themes/wpClassifieds/item.php:
+
+
+----
+/themes/kamaleon/contact.php:
+/themes/kamaleon/item-new.php:
+/themes/kamaleon/item.php:
+/themes/moderndeluxe/contact.php:
+/themes/moderndeluxe/item-new.php:
+/themes/moderndeluxe/item.php:
+/themes/responsive/contact.php:
+/themes/responsive/item-new.php:
+/themes/responsive/item.php:
+/themes/yenii/item.php:
 
 
 ###############################################

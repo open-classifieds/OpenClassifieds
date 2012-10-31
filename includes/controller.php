@@ -5,7 +5,7 @@
 
 
 //get possible parameters for the app	
-  	if (cG("category")!=""){
+  	if (!is_null(cG("category"))){
 		$currentCategory=cG("category");
 		
 		if (is_numeric($currentCategory))
@@ -15,18 +15,18 @@
   	$page = '';
   	if (is_numeric(cG("page"))) $page = intval(cG("page"));//obtaining the page on get
   	
-  	if (cG("type")!="") {
+  	if (!is_null(cG("type"))) {
   	    $type=cG("type");
   	    if (!is_numeric($type)) $type=getTypeNum($type);//if its not numeric we need to find the numeric value
   	}
     
-  	$location = '';
-    if (cG("location")!="") {
+  	//$location = '';
+    if (!is_null(cG("location"))) {
   	    $location=cG("location");
   	    if (!is_numeric($location)) $location=getLocationNum($location);//if its not numeric we need to find the numeric value
   	}
   	
-  	if (cG("contact")!="") {
+  	if (!is_null(cG("contact"))) {
   	    $contact=cG("contact");
   	}
 //end get

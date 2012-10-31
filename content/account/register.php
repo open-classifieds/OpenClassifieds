@@ -91,7 +91,7 @@ if ($show_form){
     <br />
 	<?php if (CAPTCHA){?>
     Captcha*:<br />
-	<img alt="captcha" src="<?php echo captcha::url('register');?>"><br />
+	<?php echo captcha::image_tag('register');?><br />
     <input id="captcha" name="captcha" type="text"  onblur="validateText(this);"  lang="false" />
     <?php }?>
     <?php createCSRF('register_user');?>

@@ -43,7 +43,7 @@
 				</p>
 				<?php if (CAPTCHA){?>
                     Captcha*:<br />
-                	<img alt="captcha" src="<?php echo captcha::url('contact_'.$idItem);?>"><br />
+                	<?php echo captcha::image_tag('contact_'.$idItem);?><br />
                     <input id="captcha" name="captcha" type="text"  onblur="validateText(this);"  lang="false" />
                 <?php }?>
 		        <p>

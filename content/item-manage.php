@@ -225,7 +225,7 @@ if (cG("pwd")&&is_numeric(cG("post"))){//delete ,activate or deactivate
 	<br /><br />
 	<?php if (CAPTCHA){?>
     Captcha*:<br />
-	<img alt="captcha" src="<?php echo captcha::url('edititem');?>"><br />
+	<?php echo captcha::image_tag('edititem');?><br />
     <input id="captcha" name="captcha" type="text"  onblur="validateText(this);"  lang="false" /><br />
     <?php }?>
 	<?php createCSRF('edititem');?>
