@@ -6,7 +6,7 @@ if ( !defined('__DIR__') ) define('__DIR__', dirname(__FILE__));
 
 define('SITE_ROOT',substr(__DIR__,0,-8));
 //die(SITE_ROOT);
-define('VERSION','1.8.2');
+define('VERSION','1.8.3');
 define('DEBUG', false);
 define('CHARSET', 'UTF-8');
 
