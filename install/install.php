@@ -165,7 +165,7 @@ define('NEED_OFFER',false);
 	//create robots.txt
 	if ($install)
 	{
-		if (!regenerateHtaccess($_POST["SITE_URL"]))
+		if (!regenerateRobots($_POST["SITE_URL"]))
 		{
 			$error_msg = T_("Cannot write to the configuration file")." '/robots.txt'";
 			$install=false;

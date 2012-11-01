@@ -632,24 +632,26 @@ RewriteRule ^(.+)/(.+)-([0-9]+).htm$  content/item.php?category=$1&item=$3 [L]
 
 ////////////////////////////////////////////////////////////
 //creates the robots.txt file
+//creates the robots.txt file & returns its content 
 function regenerateRobots($site_url)
 {
-		$con=u(T_("Contact"));
-        if ($con=="") $con="contact";
-		$robots_content = "User-agent: *
+	$con=contactURL(); // from seo.php
+	$robots_content = "User-agent: *
 Allow: /images/*
 Disallow: /includes/
-Disallow: /manage/
 Disallow: /admin/
 Disallow: /cache/
 Disallow: /install/
-Disallow: /$con/
+Disallow: /$con
 Disallow: /?s=
-Allow: /rss/$
-Sitemap: ".$site_url."/sitemap.xml.gz";//	echo $robots_content;
-		
-		return oc::fwrite('../robots.txt', $robots_content);
-		
+Allow: /rss/
+Sitemap: ".$site_url."/sitemap.xml.gz";
+
+	if (oc::fwrite('../robots.txt', $robots_content))
+		return $robots_content;
+	else
+		return false;
+
 }
 ////////////////////////////////////////////////////////////
 define('SAMBA', TRUE);
