@@ -14,8 +14,12 @@ Captcha reload image onclick
 Htaccess Terms bug
 SEO improvements for locations
 Need/Offer filter category bug
+Robots.txt proper genaration and improvements
+Improved friendly urls, now accepts any kind of charset.
 
 files:
+/admin/admin_sitemap.php
+/install/install.php
 /includes/common.php
 /includes/controller.php
 /includes/seo.php
@@ -41,7 +45,9 @@ files:
 /themes/responsive/contact.php:
 /themes/responsive/item-new.php:
 /themes/responsive/item.php:
-/themes/yenii/item.php:
+/themes/yenii/item.php
+
+Thanks to emanwebdev for the help on this issues.
 
 
 ###############################################
