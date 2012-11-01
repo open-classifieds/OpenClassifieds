@@ -16,9 +16,13 @@ SEO improvements for locations
 Need/Offer filter category bug
 Robots.txt proper genaration and improvements
 Improved friendly urls, now accepts any kind of charset.
+Admin login remember me
 
 files:
 /admin/admin_sitemap.php
+/admin/access.php
+/admin/login.php
+/admin/logout.php
 /install/install.php
 /includes/common.php
 /includes/controller.php
