@@ -329,35 +329,26 @@ function confirmPost($post_id,$post_password){//confirm a post
 }
 
 ////////////////////////////////////////////////////////////
-function deactivatePost($post_id,$post_password){//deactivate a post
+function deactivatePost($post_id,$post_password,$msg=TRUE){//deactivate a post
 	$ocdb=phpMyDB::GetInstance();
 	
 	$ocdb->update(TABLE_PREFIX."posts","isAvailable=0","idPost=$post_id and password='$post_password'");
 		if (CACHE_DEL_ON_POST) deleteCache();//delete cache
-		/*
-		//ocaku deactivate post
-		if (OCAKU){
-			$ocaku=new ocaku();
-			$data=array(
-				'KEY'=>OCAKU_KEY,
-				'idPostInClass'=>$post_id,
-			);
-			$ocaku->deactivatePost($data);
-			unset($ocaku);
+
+        if ($msg==TRUE)
+        {
+	        //show confirmation message or return to admin listing
+	        if (isset($_SESSION['admin']) && isset($_SESSION['ADMIN_QUERY_STRING'])){
+	            $pag_url=SITE_URL."/admin/listing.php?rd=deactivate&".$_SESSION['ADMIN_QUERY_STRING'];
+	            redirect($pag_url);//redirect to the admin listing
+	        } else
+			  echo "<div id='sysmessage'>".T_("Your Ad was successfully deactivated")."</div>";
 		}
-		//end ocaku*/
-        
-        //show confirmation message or return to admin listing
-        if (isset($_SESSION['admin']) && isset($_SESSION['ADMIN_QUERY_STRING'])){
-            $pag_url=SITE_URL."/admin/listing.php?rd=deactivate&".$_SESSION['ADMIN_QUERY_STRING'];
-            redirect($pag_url);//redirect to the admin listing
-        } else
-		  echo "<div id='sysmessage'>".T_("Your Ad was successfully deactivated")."</div>";
 }
 
 
 ////////////////////////////////////////////////////////////
-function activatePost($post_id,$post_password){//activate a post
+function activatePost($post_id,$post_password,$msg=TRUE){//activate a post
 	$ocdb=phpMyDB::GetInstance();
 	
 	//move images to new folder, since we change the insertDate.
@@ -393,17 +384,20 @@ function activatePost($post_id,$post_password){//activate a post
 			
 		if (CACHE_DEL_ON_POST) deleteCache();//delete cache
 		
-        //show confirmation message or return to admin listing
-        if (isset($_SESSION['admin']) && isset($_SESSION['ADMIN_QUERY_STRING'])){
-            $pag_url=SITE_URL."/admin/listing.php?rd=activate&".$_SESSION['ADMIN_QUERY_STRING'];
-                
-            redirect($pag_url);//redirect to the admin listing
-        } else
-		  echo "<div id='sysmessage'>".T_("Your Ad was successfully activated")."</div>";
+		if ($msg==TRUE)
+        {
+	        //show confirmation message or return to admin listing
+	        if (isset($_SESSION['admin']) && isset($_SESSION['ADMIN_QUERY_STRING'])){
+	            $pag_url=SITE_URL."/admin/listing.php?rd=activate&".$_SESSION['ADMIN_QUERY_STRING'];
+	                
+	            redirect($pag_url);//redirect to the admin listing
+	        } else
+			  echo "<div id='sysmessage'>".T_("Your Ad was successfully activated")."</div>";
+		}
 }
 
 ////////////////////////////////////////////////////////////
-function spamPost($post_id,$post_password){//flag post as spam
+function spamPost($post_id,$post_password,$msg=TRUE){//flag post as spam
 	$ocdb=phpMyDB::GetInstance();
 	if (AKISMET!=""){//report akismet
 			$query="select name,email,description,ip from ".TABLE_PREFIX."posts where idPost=$post_id and password='$post_password' Limit 1";
@@ -424,54 +418,37 @@ function spamPost($post_id,$post_password){//flag post as spam
 		deletePostImages($post_id);// delete the images cuz of spammer
 		if (CACHE_DEL_ON_POST) deleteCache();//delete cache
 		
-		/*
-		//ocaku spam post
-		if (OCAKU){
-			$ocaku=new ocaku();
-			$data=array(
-				'KEY'=>OCAKU_KEY,
-				'idPostInClass'=>$post_id,
-			);
-			$ocaku->spamPost($data);
-			unset($ocaku);
+		if ($msg==TRUE)
+        {
+	        //show confirmation message or return to admin listing
+	        if (isset($_SESSION['admin']) && isset($_SESSION['ADMIN_QUERY_STRING'])){
+	            $pag_url=SITE_URL."/admin/listing.php?rd=spam&".$_SESSION['ADMIN_QUERY_STRING'];
+	                
+	            redirect($pag_url);//redirect to the admin listing
+	            die();
+	        } else
+			  echo "<div id='sysmessage'>".T_("Spam reported")."</div>";
 		}
-		//end ocaku*/
-		
-        //show confirmation message or return to admin listing
-        if (isset($_SESSION['admin']) && isset($_SESSION['ADMIN_QUERY_STRING'])){
-            $pag_url=SITE_URL."/admin/listing.php?rd=spam&".$_SESSION['ADMIN_QUERY_STRING'];
-                
-            redirect($pag_url);//redirect to the admin listing
-            die();
-        } else
-		  echo "<div id='sysmessage'>".T_("Spam reported")."</div>";
 }
 
 ////////////////////////////////////////////////////////////
-function deletePost($post_id,$post_password){//delete post
+function deletePost($post_id,$post_password,$msg=TRUE){//delete post
 	$ocdb=phpMyDB::GetInstance();
 	deletePostImages($post_id);//delete images! and folder
 		$ocdb->delete(TABLE_PREFIX."posts","idPost=$post_id and password='$post_password'");
 		if (CACHE_DEL_ON_POST) deleteCache();//delete cache
-		/*//ocaku delete post
-		if (OCAKU){
-			$ocaku=new ocaku();
-			$data=array(
-				'KEY'=>OCAKU_KEY,
-				'idPostInClass'=>$post_id,
-			);
-			$ocaku->deletePost($data);
-			unset($ocaku);
-		}
-		//end ocaku*/
-        
-        //show confirmation message or return to admin listing
-        if (isset($_SESSION['admin']) && isset($_SESSION['ADMIN_QUERY_STRING'])){
-            $pag_url=SITE_URL."/admin/listing.php?rd=delete&".$_SESSION['ADMIN_QUERY_STRING'];
-                
-            redirect($pag_url);//redirect to the admin listing
-        } else
-		  echo "<div id='sysmessage'>".T_("Your Ad was successfully deleted")."</div>";
+
+        if ($msg==TRUE)
+        {
+        	 //show confirmation message or return to admin listing
+	        if (isset($_SESSION['admin']) && isset($_SESSION['ADMIN_QUERY_STRING'])){
+	            $pag_url=SITE_URL."/admin/listing.php?rd=delete&".$_SESSION['ADMIN_QUERY_STRING'];
+	                
+	            redirect($pag_url);//redirect to the admin listing
+	        } else
+			  echo "<div id='sysmessage'>".T_("Your Ad was successfully deleted")."</div>";
+        }
+       
 }
 
 ////////////////////////////////////////////////////////////

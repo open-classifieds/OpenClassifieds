@@ -10,6 +10,7 @@ Changelog:
 
 ###############################################
 1.8.3
+Improved moderation, multiselect, pagination
 Captcha reload image onclick
 Htaccess Terms bug
 SEO improvements for locations
@@ -23,8 +24,10 @@ files:
 /admin/access.php
 /admin/login.php
 /admin/logout.php
+/admin/listing.php
 /install/install.php
 /includes/common.php
+/includes/item-common.php
 /includes/controller.php
 /includes/seo.php
 /includes/classes/captha.php
