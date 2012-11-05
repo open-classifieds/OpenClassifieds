@@ -9,10 +9,17 @@ require_once('header.php');
 <?php
 if (cG("action")=="db"){
     $result  = $ocdb->query('SHOW TABLE STATUS FROM '. DB_NAME); 
-    while ($row = mysql_fetch_array($result)) $tables[]=$row[0];  
-    $tables=implode(", ",$tables); //echo $tables;
-    $ocdb->query('OPTIMIZE TABLE '.$tables);
-    echo "<div class='alert alert-success'>".T_("All tables found in the database were optimized").": $tables</div>";
+    $tables = array();
+    while ($row = mysql_fetch_array($result)) {
+        $strTableName = $row[0]; if(strpos($strTableName, TABLE_PREFIX, 0) !== false) $tables[]=$strTableName;
+    }
+    if (count($tables)>0) {
+        $tables=implode(", ",$tables); //echo $tables;
+        $ocdb->query('OPTIMIZE TABLE '.$tables);
+        echo '<div class="alert alert-success">'.T_("All tables found in the database were optimized").": $tables</div>";
+    } else {
+        echo '<div class="alert alert-warning">'.T_("No table has been optimized").'</div>';
+    }
 }
 elseif (cG("action")=="cache") {
 	deleteCache();
