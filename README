@@ -18,6 +18,9 @@ Need/Offer filter category bug
 Robots.txt proper genaration and improvements
 Improved friendly urls, now accepts any kind of charset.
 Admin login remember me
+SEO Speed improvements
+
+Issues closed: https://github.com/neo22s/OpenClassifieds/issues?milestone=1&state=closed
 
 files:
 /admin/admin_sitemap.php
@@ -31,6 +34,8 @@ files:
 /includes/controller.php
 /includes/seo.php
 /includes/classes/captha.php
+/includes/classes/oc.php
+/includes/classes/phpseo.php
 /content/contact.php:
 /content/item-manage.php:
 /content/item-new.php:
@@ -55,6 +60,10 @@ files:
 /themes/yenii/item.php
 
 Thanks to emanwebdev for the help on this issues.
+
+We also moved to github! collaborate :D
+https://github.com/neo22s/OpenClassifieds/
+
 
 
 ###############################################
