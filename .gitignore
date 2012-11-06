@@ -1,13 +1,11 @@
 cache/*
 images/*
-includes/config.php
 themes/moderndeluxe/*
 themes/kamaleon/*
 themes/responsive/*
 themes/yenii/*
+includes/config.php
 robots.txt
 install.lock
 .htaccess
 sitemap.xml.gz
-openclassifieds.sublime-project
-openclassifieds.sublime-workspace
