@@ -1,5 +1,5 @@
 Open Classifieds 1.8.3
-Release date:   xx/xx/2012
+Release date:   08/11/2012
 License:        GPL v3
 Installation:   http://open-classifieds.com/install/
 Support:        http://open-classifieds.com/support/
@@ -11,18 +11,23 @@ Changelog:
 ###############################################
 1.8.3
 Improved moderation, multiselect, pagination
+Admin login remember me
 Captcha reload image onclick
 Htaccess Terms bug
 SEO improvements for locations
 Need/Offer filter category bug
 Robots.txt proper genaration and improvements
 Improved friendly urls, now accepts any kind of charset.
-Admin login remember me
 SEO Speed improvements
 
 Issues closed: https://github.com/neo22s/OpenClassifieds/issues?milestone=1&state=closed
 
-files:
+Thanks to emanwebdev for the help on this issues.
+
+We also moved to github! collaborate :D
+https://github.com/neo22s/OpenClassifieds/
+
+Modified files:
 /admin/admin_sitemap.php
 /admin/access.php
 /admin/login.php
@@ -47,7 +52,7 @@ files:
 /themes/wpClassifieds/item.php:
 
 
-----
+----Premium themes, please write us and we send you the files.
 /themes/kamaleon/contact.php:
 /themes/kamaleon/item-new.php:
 /themes/kamaleon/item.php:
@@ -58,11 +63,6 @@ files:
 /themes/responsive/item-new.php:
 /themes/responsive/item.php:
 /themes/yenii/item.php
-
-Thanks to emanwebdev for the help on this issues.
-
-We also moved to github! collaborate :D
-https://github.com/neo22s/OpenClassifieds/
 
 
 
