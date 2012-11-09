@@ -13,6 +13,7 @@ define('CHARSET', 'UTF-8');
 require_once('../includes/classes/oc.php');
 require_once('../includes/common.php');//adding common library
 oc::start();
+require_once('../includes/seo.php');
 
 if (isset($_POST["LANGUAGE"])) $locale_language=$_POST["LANGUAGE"];
 elseif (isset($_GET["LANGUAGE"])) $locale_language=$_GET["LANGUAGE"];
