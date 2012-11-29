@@ -15,7 +15,7 @@ function generateMenuJS($selectedCategory){//tabbed top menu, param, the selecte
 	$query="SELECT name,friendlyName,idCategory from ".TABLE_PREFIX."categories where idCategoryParent=0 order by `order`";
 	$result=$ocdb->getRows($query);
 	
-	foreach ($result as $category ) {
+	if ($result) foreach ($result as $category ) {
 		$name=$category["name"];
 		$fcategory=$category["friendlyName"];
 		$idCategory=$category["idCategory"];
@@ -53,8 +53,9 @@ function generateSubMenuJS($idCategoryParent,$categoryParent,$currentCategory){/
 	   			order by idCategoryParent,`order`";
 	$result=$ocdb->getRows($query);
 	
-	$parent="";
-	foreach ($result as $row ) {	
+	$subMenu='';
+	$parent='';
+	if ($result) foreach ($result as $row ) {	
 			$name=$row['name'];
 			$fcategory=$row['friendlyName'];
 			$CategoryParent=$row['idCategoryParent'];
@@ -92,7 +93,7 @@ function generatePopularCategoriesJS(){//popular categories displayed in the men
 	$result=$ocdb->getRows($query);
 	
 	//$popularCategories="<b>".T_("Popular")."</b>";
-	foreach ( $result as $category ) {
+	if ($result) foreach ( $result as $category ) {
 		$name=$category["name"];
 		$fcategory=$category["friendlyName"];
 		$cont=$category["cont"];
@@ -112,7 +113,7 @@ function getCategoriesList(){//for the home
     $query="SELECT name,friendlyName,idCategory from ".TABLE_PREFIX."categories where idCategoryParent=0 order by `order`";
     $result=$ocdb->getRows($query);
     
-    $i = 0;
+    $i = 0;  $list = '';
 	$q = count($result);
 	$z = round($q/3);
 
@@ -137,7 +138,7 @@ function getCategoriesList(){//for the home
                 $result2=$ocdb->getRows($query);
 
 
-                foreach ($result2 as $row ) {	
+                if ($result2) foreach ($result2 as $row ) {	
 	                    $name2=$row['name'];
 	                    $fcategory2=$row['friendlyName'];
 	                    if ($fcategory!=""){
