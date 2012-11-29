@@ -6,7 +6,7 @@ function accountCheck($key,$id=""){ //try to prevent duplicated accounts
 	$ocdb=phpMyDB::GetInstance();    
     if (is_numeric($id)) $query="SELECT email FROM ".TABLE_PREFIX."accounts where (email='$key') and (idAccount <> $id) limit 1";
     else $query="SELECT email FROM ".TABLE_PREFIX."accounts where (email='$key') limit 1";
-    $res=$ocdb->getValue($query,"none");
+    $res=$ocdb->getValue($query);
     
     return $res;	
 }
