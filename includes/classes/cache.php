@@ -366,7 +366,7 @@ class Cache {
 				$ret.='<li>'.$c[0].' - ';
 				if ($c[1]) $ret.='Found/Compatible';
 				else $ret.='Not Found/Incompatible';
-				$ret.='</ll>';
+				$ret.='</li>';
 			}
 			return $ret.'</ul>';
 		}
