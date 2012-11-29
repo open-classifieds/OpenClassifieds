@@ -10,7 +10,7 @@ require_once('header.php');
 		  <li><?php _e("Version");?>: <?php echo VERSION;?></li>
 		  <li><?php _e("Language");?>: <?php echo LANGUAGE;?></li>
 		  <li><?php _e("Theme");?>: <?php echo THEME;?></li>
-		  <li><?php echo T_("Total Ads").': '.totalAds();?>
+		  <li><?php echo T_("Total Ads").': '.totalAds();?></li>
 		  <li><?php echo T_("Total Views").': '.totalViews();?></li>
 	  </ul>
   	 	<a class="btn btn-primary" href="settings.php"><i class="icon-cog icon-white"></i> <?php _e('Settings')?></a>
