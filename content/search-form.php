@@ -16,9 +16,9 @@
 	<tr><td><?php _e("Location");?>:</td><td>
     	<?php 
     	global $location;
-		$query="SELECT idLocation,name,(select name from ".TABLE_PREFIX."locations where idLocation=C.idLocationParent) 
+	$query="SELECT idLocation,name,(select name from ".TABLE_PREFIX."locations where idLocation=C.idLocationParent) 
 					FROM ".TABLE_PREFIX."locations C order by idLocationParent,idLocation";
-        echo sqlOptionGroup($query,"location",$location);
+        sqlOptionGroup($query,"location",$location);
     	?>
 	</td></tr>
     <?php }?>  
