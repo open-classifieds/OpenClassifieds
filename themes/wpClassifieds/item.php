@@ -1,9 +1,10 @@
 <script type="text/javascript" src="<?php echo SITE_URL;?>/content/greybox/AJS.js"></script>
 <script type="text/javascript" src="<?php echo SITE_URL;?>/content/greybox/gb_scripts.js"></script>
       <div class="single_area">
-		<h1><?php echo $itemTitle; ?> <?php if ($itemPrice!=0) echo " - ".getPrice($itemPrice);?></h1>
+		<h1><?php echo $itemTitle; ?> <?php if ($itemPrice!=0) echo ' - '.getPrice($itemPrice);?></h1>
         <p>
-            <b><?php _e("Publish Date");?>:</b> <?php echo setDate($itemDate);?> <?php echo substr($itemDate,strlen($itemDate)-8);?><?php echo SEPARATOR;?>
+            <b><?php _e("Publish Date");?>:</b> <?php echo setDate($itemDate);?> <?php echo substr($itemDate,strlen($itemDate)-8);?>
+            <?php if (COUNT_POSTS) echo SEPARATOR.$itemViews.' '.T_("times displayed");?>
             <b><?php _e("Contact name");?>:</b> 
             <?php
             $account=new Account($itemEmail);
@@ -30,7 +31,7 @@
         <?php if (MAX_IMG_NUM>0){?>
 		<div id="pictures">
 			<?php 
-			foreach($itemImages as $img){
+			if (!empty($itemImages)) foreach($itemImages as $img){
 				echo '<a href="'.$img[0].'" title="'.$itemTitle.' '.T_('Picture').'" rel="gb_imageset['.$idItem.']">
 				 		<img class="thumb" src="'.$img[1].'" title="'.$itemTitle.' '.T_('Picture').'" alt="'.$itemTitle.' '.T_('Picture').'" /></a>';
 			}
