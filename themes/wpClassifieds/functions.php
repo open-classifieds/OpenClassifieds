@@ -4,7 +4,8 @@ function generateMenuJS($selectedCategory){//tabbed top menu, param, the selecte
 	
 	$style='default_page_item';//for the selected item
 	$nstyle='page_item page-item';//normal style
-	
+	$strHomeMenu='';
+
 	//home
 	 if (!isset($selectedCategory)) $astyle=$style;
 	 else $astyle=$nstyle;
