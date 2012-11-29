@@ -100,7 +100,7 @@
 			//postsHits add new hit row TODO decide if we allow once per IP....
 			if (COUNT_POSTS) {
 				$ocdb->insert(TABLE_PREFIX."postshits (idPost,ip)","$idItem,'".oc::get_ip()."'");
-				$itemViews=$ocdb->getValue("SELECT count(idPost) FROM ".TABLE_PREFIX."postshits where idPost=$idItem","none");
+				$itemViews=$ocdb->getValue("SELECT count(idPost) FROM ".TABLE_PREFIX."postshits where idPost=$idItem");
 			}
 		}
 		else unset($idItem);//nothing returned for that item
