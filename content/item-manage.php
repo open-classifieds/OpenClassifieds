@@ -176,7 +176,7 @@ if (cG("pwd")&&is_numeric(cG("post"))){//delete ,activate or deactivate
     <?php _e("Location");?>:<br />
 	<?php 
     $query="SELECT idLocation,name,(select name from ".TABLE_PREFIX."locations where idLocation=C.idLocationParent) FROM ".TABLE_PREFIX."locations C order by idLocationParent, idLocation";
-	echo sqlOptionGroup($query,"location",$row["idLocation"]);
+	sqlOptionGroup($query,"location",$row["idLocation"]);
 	?>
     <?php }?>
     <br />
