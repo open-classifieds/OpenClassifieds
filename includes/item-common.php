@@ -7,7 +7,7 @@ function getPrice($amount){//returns the price for the item in the correct forma
 ////////////////////////////////////////////////////////////
 function isSpam($name,$email,$comment){//return if something is spam or not using akismet, and checking the spam list
 	$ocdb=phpMyDB::GetInstance();
-	$res=$ocdb->getValue("SELECT idPost FROM ".TABLE_PREFIX."posts p where isAvailable=2  and email='$email' LIMIT 1","none");//check spam tags
+	$res=$ocdb->getValue("SELECT idPost FROM ".TABLE_PREFIX."posts p where isAvailable=2  and email='$email' LIMIT 1");//check spam tags
 	if ($res==false){//nothing found
 		if (AKISMET!=""){
 			$akismet = new Akismet(SITE_URL ,AKISMET);//change this! or use defines with that name!
@@ -24,7 +24,7 @@ function isSpam($name,$email,$comment){//return if something is spam or not usin
 ////////////////////////////////////////////////////////////
 function isInSpamList($ip){//return is was taged as spam (in /manage is where we tag)
 	$ocdb=phpMyDB::GetInstance();
-	$res=$ocdb->getValue("SELECT idPost FROM ".TABLE_PREFIX."posts p where isAvailable=2  and ip='$ip' LIMIT 1","none");
+	$res=$ocdb->getValue("SELECT idPost FROM ".TABLE_PREFIX."posts p where isAvailable=2 and ip='$ip' LIMIT 1");
 
 	if(!empty($res)) return true;//we had tagged him before as spammer
 	elseif (empty($res) && SPAM_COUNTRY){
@@ -77,7 +77,7 @@ function upload_images_form($idPost,$title,$date=0){//upload image files from th
 		//else $imgDir=date("Y").'/'.date("m").'/'.date("d").'/'.$idPost; //no date	
 		else{// we do not have the date for the post retrieving from DB
 			$ocdb=phpMyDB::GetInstance();
-			$date=setDate($ocdb->getValue("select insertDate from ".TABLE_PREFIX."posts where idPost=$idPost Limit 1",'none'));
+			$date=setDate($ocdb->getValue("select insertDate from ".TABLE_PREFIX."posts where idPost=$idPost Limit 1"));
 			$date = standarizeDate($date);
 			//d($date);
 			$date=explode('-',$date);
@@ -177,7 +177,7 @@ function deletePostImages($idPost,$date=0){
 	
 	if (count($dateD)!=3){// we do not have the date for the post retrieving from DB
 		$ocdb=phpMyDB::GetInstance();
-		$date=setDate($ocdb->getValue("select insertDate from ".TABLE_PREFIX."posts where idPost=$idPost Limit 1",'none'));
+		$date=setDate($ocdb->getValue("select insertDate from ".TABLE_PREFIX."posts where idPost=$idPost Limit 1"));
 		$dateD=explode('-',$date);
 	}
 
@@ -356,7 +356,7 @@ function activatePost($post_id,$post_password,$msg=TRUE){//activate a post
 		$newDate = date('Y-m-d H:i:s');
 	
 		//get old date, creating orig folder
-		$date=setDate($ocdb->getValue("select insertDate from ".TABLE_PREFIX."posts where idPost=$post_id AND hasImages =1 Limit 1",'none'));
+		$date=setDate($ocdb->getValue("select insertDate from ".TABLE_PREFIX."posts where idPost=$post_id AND hasImages =1 Limit 1"));
 		
 		//if different date then change it...
 		if ($date != setDate($newDate))
