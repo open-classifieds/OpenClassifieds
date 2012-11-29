@@ -27,11 +27,11 @@
 		<?php if (COUNT_POSTS) echo "$itemViews "._("times displayed").SEPARATOR;?>
 		<?php if (DISQUS!=""){ ?><a href="<?php echo $_SERVER["REQUEST_URI"];?>#disqus_thread"><?php echo _("Comments");?></a><?php echo SEPARATOR;?> <?php }?>
 	</p>	
-	</div
+	</div>
 <?php if (MAX_IMG_NUM>0){?>
 		<div id="item">
 			<?php 
-			foreach($itemImages as $img){
+			if ($itemImages) foreach($itemImages as $img){
 				echo '<a href="'.$img[0].'" title="'.$itemTitle.' '._("Picture").'" ">
 				 		<img class="thumb" src="'.$img[1].'" title="'.$itemTitle.' '._("Picture").'" alt="'.$itemTitle.' '._("Picture").'" /></a>';
 			}
