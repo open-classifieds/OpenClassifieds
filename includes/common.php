@@ -188,6 +188,8 @@ function setDate($L_date,$L_dateFormat=DATE_FORMAT){//sets a date in a format
 			$returnDate = $L_strMonth."-".$L_strDay."-".$L_strYear;
 			return $returnDate;
 		}
+		else
+			return $L_date; // or false ?
 	}
 	else return false;
 }
