@@ -23,7 +23,7 @@ if ($_POST){
             echo "<div class='alert alert-warning'>".T_("Account already exists")."</div>";
         }
         else {
-            $password=generatePassword(8);
+            $password=generatePassword(PASSWORD_SIZE);
        
             if ($account->Register($name,$email,$password)){
                 $token=$account->token();
@@ -41,8 +41,8 @@ if ($_POST){
                     sendEmail($email,T_("Your new account")." - ".SITE_NAME,$bodyHTML);//
          
                     echo "<div class='alert alert-success'>".T_("Account succesfully created")."</div>";
-                } else echo "<div class='alert alert-success'>".T_("An unexpected error has occurred trying to confirm the account")."</div>";
-            } else echo "<div class='alert alert-success'>".T_("An unexpected error has occurred trying to register the account")."</div>";
+                } else echo "<div class='alert alert-error'>".T_("An unexpected error has occurred trying to confirm the account")."</div>";
+            } else echo "<div class='alert alert-error'>".T_("An unexpected error has occurred trying to register the account")."</div>";
         }
     }
     if (is_numeric($account_id)){
@@ -63,7 +63,7 @@ if ($_POST){
                     
                     echo "<div class='alert alert-success'>".T_("Account succesfully updated")."</div>";
                     }
-                    else echo "<div class='alert alert-success'>".T_("Account already exists")."</div>";
+                    else echo "<div class='alert alert-warning'>".T_("Account already exists")."</div>";
         }
     }
 } else {
@@ -184,7 +184,7 @@ if ($_POST){
 		<th><?php _e("Name");?></th>
 		<th><?php _e("Email");?></th>
 		<th><?php _e("Date Created");?></th>
-		<th>&nbsp;</td>
+		<th>&nbsp;</th>
 	</tr>
 	</thead>
 	<tbody>
@@ -213,7 +213,7 @@ if ($_POST){
                 WHERE 1 $filter
                 order by $order $limit";
         //echo $query;
-        $resultSearch=$ocdb->getRows($query,"assoc","none");				
+        $resultSearch=$ocdb->getRows($query,"assoc");				
     
         if ($resultSearch){
 			foreach ( $resultSearch as $row ){
