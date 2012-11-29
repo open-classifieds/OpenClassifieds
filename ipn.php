@@ -4,9 +4,8 @@ require_once('includes/bootstrap.php');
 //START PAYPAL IPN
 
 //manual checks
-if (!is_numeric(cP('item_number'))) paypal::report_problem('Not any idItem.');
-else $idItem=cP('item_number');
-
+$idItem = cP('item_number');
+if (!is_numeric($idItem)) paypal::report_problem('PayPal IPN: not any item ID (item_number is not numeric).');
 
 ///retrieve info for the item in DB
 $query="select password,idCategory
