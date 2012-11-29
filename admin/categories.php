@@ -8,11 +8,11 @@ function catSlug($name,$id=""){ //try to prevent duplicated categories
 
 	if (is_numeric($id)) $query="SELECT friendlyName FROM ".TABLE_PREFIX."categories where (friendlyName='$name') and (idCategory <> $id) limit 1";
 	else $query="SELECT friendlyName FROM ".TABLE_PREFIX."categories where (friendlyName='$name') limit 1";
-	$res=$ocdb->getValue($query,"none");
+	$res=$ocdb->getValue($query);
 
 	if ($res!=false){//exists try adding with parent id
 		$name.='-'.cP("cparent");  
-		$res=$ocdb->getValue("SELECT friendlyName FROM ".TABLE_PREFIX."locations where friendlyName='$name' limit 1","none");//now with the new cat name
+		$res=$ocdb->getValue("SELECT friendlyName FROM ".TABLE_PREFIX."locations where friendlyName='$name' limit 1");//now with the new cat name
 	}
 
 	if ($res==false) return $name;
