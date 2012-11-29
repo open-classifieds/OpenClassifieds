@@ -59,7 +59,7 @@ $ocdb->query($query);
 					inner join ".TABLE_PREFIX."postsimages i
 					on p.idPost=i.idPost
 			group by  p.idPost,p.insertDate";//echo $query;
-	$result=$ocdb->getRows($query,"assoc","none");//var_dump ($result);
+	$result=$ocdb->getRows($query,"assoc");//var_dump ($result);
 	if ($result){
 		$types=split(",",IMG_TYPES);//creating array with the allowed images types
 		$imgPath=SITE_ROOT.IMG_UPLOAD;//path of the images
