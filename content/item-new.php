@@ -89,7 +89,7 @@ if (!isInSpamList(oc::get_ip())){//no spammer
 	<?php 
 	if (is_numeric(cP("location"))) $selectedLocation=cP("location");
     $query="SELECT idLocation,name,(select name from ".TABLE_PREFIX."locations where idLocation=C.idLocationParent) FROM ".TABLE_PREFIX."locations C order by idLocationParent, idLocation";
-	echo sqlOptionGroup($query,"location",$selectedLocation);
+	sqlOptionGroup($query,"location",$selectedLocation);
 	?>
     <?php }?>
     <br />
