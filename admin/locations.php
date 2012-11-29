@@ -8,11 +8,11 @@ function catSlug($name,$id=""){ //try to prevent duplicated Locations
     
     if (is_numeric($id)) $query="SELECT friendlyName FROM ".TABLE_PREFIX."locations where (friendlyName='$name') and (idLocation <> $id) limit 1";
     else $query="SELECT friendlyName FROM ".TABLE_PREFIX."locations where (friendlyName='$name') limit 1";
-    $res=$ocdb->getValue($query,"none");
+    $res=$ocdb->getValue($query);
     
     if ($res!=false){//exists try adding with parent id
         $name.='-'.cP("cparent");  
-        $res=$ocdb->getValue("SELECT friendlyName FROM ".TABLE_PREFIX."locations where friendlyName='$name' limit 1","none");//now with the new location name
+        $res=$ocdb->getValue("SELECT friendlyName FROM ".TABLE_PREFIX."locations where friendlyName='$name' limit 1");//now with the new location name
     }
     
     if ($res==false) return $name;
