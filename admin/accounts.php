@@ -20,7 +20,7 @@ if ($_POST){
     if ($action=="new"){
         $account = new Account($email);
         if ($account->exists){
-            echo "<div class='alert alert-success'>".T_("Account already exists")."</div>";
+            echo "<div class='alert alert-warning'>".T_("Account already exists")."</div>";
         }
         else {
             $password=generatePassword(8);
