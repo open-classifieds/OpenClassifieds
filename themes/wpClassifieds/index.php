@@ -133,7 +133,7 @@ else {//home page carousel and categories?>
      
      <h4 class="carousel"><?php _e("Latest Ads"); ?></h4> 
       <div id="carousel">
-        <div class="prev"><img src="<?php echo SITE_URL;?>/themes/wpClassifieds/prev.jpg" alt="prev" width="19" height="19" /></div>
+        <div class="prev"><img src="<?php echo SITE_URL;?>/themes/wpClassifieds/prev.jpg" alt="<?php _e('Previous picture');?>" width="19" height="19" /></div>
         <div class="slider">
           <ul>  
             <?php
@@ -167,7 +167,7 @@ else {//home page carousel and categories?>
             }?>
           </ul>
         </div>
-        <div class="next"><img src="<?php echo SITE_URL;?>/themes/wpClassifieds/next.jpg" alt="next" width="19" height="19" /></div>
+        <div class="next"><img src="<?php echo SITE_URL;?>/themes/wpClassifieds/next.jpg" alt="<?php _e('Next picture');?>" width="19" height="19" /></div>
         <div class="clear"></div>
       </div>
     
