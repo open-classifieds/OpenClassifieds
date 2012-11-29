@@ -5,7 +5,7 @@ if (file_exists(SITE_ROOT.'/themes/'.THEME.'/404.php')){//404 from the theme!
 }
 else{//not found in theme
 
-echo "<h1>".u($_SERVER["REQUEST_URI"])."</h1>".T_("Nothing found");
+echo "<h1>".u(urldecode($_SERVER["REQUEST_URI"]))."</h1>".T_("Nothing found");
 ?>
 <br /> 
 <br /> 
