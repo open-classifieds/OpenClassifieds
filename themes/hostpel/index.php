@@ -133,7 +133,7 @@ else {//home page carousel and categories?>
      
      <h4 class="slideh"><?php _e("Recents Ads"); ?></h4>
       <div id="slider">
-        <div class="prev"><img src="<?php echo SITE_URL;?>/themes/hostpel/images/prev.gif" alt="prev" width="19" height="19" /></div>
+        <div class="prev"><img src="<?php echo SITE_URL;?>/themes/hostpel/images/prev.gif" alt="<?php _e('Previous picture');?>" width="19" height="19" /></div>
         <div class="slider">
           <ul>  
             <?php
@@ -167,7 +167,7 @@ else {//home page carousel and categories?>
             }?>
           </ul>
         </div>
-        <div class="next"><img src="<?php echo SITE_URL;?>/themes/hostpel/images/next.gif" alt="next" width="19" height="19" /></div>
+        <div class="next"><img src="<?php echo SITE_URL;?>/themes/hostpel/images/next.gif" alt="<?php _e('Next picture');?>" width="19" height="19" /></div>
         <div class="clear"></div>
       </div>
     
