@@ -29,6 +29,7 @@ if ($_POST)
          		$error_msg.= $row->Database . "\n";
     		}
     		$error_msg.= "</pre>\n";
+            	 $install = false;
         }
 	}
 
