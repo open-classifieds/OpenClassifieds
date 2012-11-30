@@ -18,7 +18,7 @@ if ($_POST)
         if ($_POST["DB_NAME"]){
             $dbcheck = mysql_select_db($_POST["DB_NAME"]);
             if (!$dbcheck){
-            	 $error_msg.= mysql_error();
+            	 $error_msg.= T_("Database name").': ' . mysql_error();
             	 $install = false;
            }
         } else {
