@@ -75,7 +75,7 @@ if ($_POST)
 	//create config.php
 	if ($install)
 	{
-		$config_content = "<?php\n//Open Classifieds ".T_("Config")." ".date("d/m/Y G:i:s")."\n";
+		$config_content = "<?php\n//Open Classifieds v ".VERSION.' '.T_("Config").' '.date("d/m/Y G:i:s")."\n";
 		foreach  ($_POST AS $key => $value){
 			$config_content.="define('$key','$value');\n";		
 		}
@@ -99,7 +99,7 @@ define('ADVERT_TOP','<script type=\"text/javascript\">google_ad_client = \"pub-9
 define('ADVERT_SIDEBAR','<script type=\"text/javascript\">google_ad_client = \"pub-9818256176049741\";google_ad_slot = \"4162447127\";google_ad_width = 250;google_ad_height = 250;</script><script type=\"text/javascript\" src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\"></script>');
 define('CURRENCY','&euro;');
 define('CURRENCY_FORMAT','AMOUNTCURRENCY');
-define('MAX_IMG_SIZE', 4000000);
+define('MAX_IMG_SIZE', 4194304);
 define('IMG_UPLOAD', '/images/');
 define('IMG_UPLOAD_DIR', SITE_ROOT.IMG_UPLOAD);
 define('MAX_IMG_NUM',4);
