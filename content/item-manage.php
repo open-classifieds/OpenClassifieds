@@ -209,8 +209,8 @@ if (cG("pwd")&&is_numeric(cG("post"))){//delete ,activate or deactivate
 	<?php _e("Your Phone (published)");?>:<br />
 	<input id="phone" name="phone" type="text" value="<?php echo $row["phone"];?>" maxlength="11"/><br />
 	<?php if (MAX_IMG_NUM>0){
-	echo "<br />".T_("Upload pictures max file size").": ".(MAX_IMG_SIZE/1000000)."Mb ".T_("format")." ".IMG_TYPES."<br />";
-	echo "<input type='hidden' name='MAX_FILE_SIZE' value='".MAX_IMG_SIZE."' />";
+	echo '<br />'.T_("Upload pictures max file size").': '.(MAX_IMG_SIZE/1048576).' Mb ' .T_("format").' '.IMG_TYPES.'<br />';
+	echo '<input type="hidden" name="MAX_FILE_SIZE" value="'.MAX_IMG_SIZE.'" />';
 	echo "<b>".T_("These images will be permanently removed if you upload new ones")."</b><br />";?>
 	<?php 
 		$images=getPostImages($post_id,$insertDate);
