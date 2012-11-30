@@ -4,7 +4,7 @@
 if ($_POST)
 {
 	$install = true;
-	$error_msg = false;
+	$error_msg = '';
 	
 ///////////////////////////////////////////////////////
 	//check DB connection
@@ -189,7 +189,7 @@ define('NEED_OFFER',false);
 	if ($install) unlink("../install.lock");//prevents from performing a new install
 	
 	//not succesful installation, let them know what was wrong
-	if (!$install && $error_msg!=false) {
+	if (!$install && !empty($error_msg)) {
 		echo '<div class="alert alert-error">'.$error_msg.'</div>';
 	}
 	else{
