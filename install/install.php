@@ -20,16 +20,21 @@ if ($_POST)
             if (!$dbcheck){
             	 $error_msg.= mysql_error();
             	 $install = false;
-           	}
+           }
         } else {
-    		$error_msg.= "<p>".T_("No database name was given").". ".T_("Available databases").":</p>\n";
-    		$db_list = mysql_list_dbs($link);
+    		$error_msg.= '<p>'.T_("No database name was given").'. '.T_("Available databases").":</p>\n";
+    		$db_list = @mysql_query("SHOW DATABASES");
+
     		$error_msg.= "<pre>\n";
-    		while ($row = mysql_fetch_object($db_list)) {
-         		$error_msg.= $row->Database . "\n";
-    		}
+		if (!$db_list) {
+			$error_msg.= T_('Invalid query'). ":\n" . mysql_error();
+		} else {
+			while ($row = mysql_fetch_assoc($db_list)) {
+				$error_msg.= $row['Database'] . "\n";
+			}
+		}
     		$error_msg.= "</pre>\n";
-            	 $install = false;
+            	$install = false;
         }
 	}
 
