@@ -128,7 +128,7 @@ if (!isInSpamList(oc::get_ip())){//no spammer
 	<?php 
 	if (MAX_IMG_NUM>0){
 		echo "<input type='hidden' name='MAX_FILE_SIZE' value='".MAX_IMG_SIZE."' />";
-		echo "<br />".T_("Upload pictures max file size").": ".(MAX_IMG_SIZE/1000000)."Mb ".T_("format")." ".IMG_TYPES."<br />";
+		echo '<br />'.T_("Upload pictures max file size").': '.(MAX_IMG_SIZE/1048576).' Mb ' .T_("format").' '.IMG_TYPES.'<br />';
 		for ($i=1;$i<=MAX_IMG_NUM;$i++){?>
 			<label><?php _e("Picture");?> <?php echo $i?>:</label><input type="file" name="pic<?php echo $i?>" id="pic<?php echo $i?>" value="<?php echo $_POST["pic".$i];?>" /><br />
 	<?php }
