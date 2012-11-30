@@ -51,7 +51,7 @@ function check_images_form(){//get values by reference to allow change them. Use
 			    $file_ext  = strtolower(substr(strrchr($_FILES["pic$i"]["name"], "."), 1 ));//image extension
 
 			    if ($_FILES["pic$i"]['size'] > MAX_IMG_SIZE) {//control the size
-				     $image_check=T_("Picture")." $i ".T_("Upload pictures max file size")." ".(MAX_IMG_SIZE/1000000)."Mb";
+				     $image_check=T_("Picture")." $i ".T_("Upload pictures max file size").' '.(MAX_IMG_SIZE/1048576).' Mb';
 			    }
 			    elseif (!in_array($file_mime,$types) || !in_array($file_ext,$types)){//the size is right checking type and extension
 				     $image_check=T_("Picture")." $i no ".T_("format")." ".IMG_TYPES;
