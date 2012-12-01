@@ -106,7 +106,7 @@ class phpMyDB {//requires wrapper cache class to use caching
             else $query .= $into . ' VALUES(' . $values . ')';        
             
             if($this->query($query)) {
-            	$this->setLastID(mysql_insert_id(),$this->dbh);
+            	$this->setLastID(mysql_insert_id());
             	return $this->getLastID();//true;  //succed
             }
             else  return false;  //not succed    
