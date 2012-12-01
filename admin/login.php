@@ -37,7 +37,7 @@
           	  <input name="pwd" type="password" class="text-long" onblur="validateText(this);"  lang="false" value="" />
             </div>
             <label class="checkbox">
-	        	<input type="checkbox" name="rememberme" id="rememberme" value="1" <?php if ($rememberme) echo 'checked="checked"'; ?> />
+	        	<input type="checkbox" name="rememberme" id="rememberme" value="1" <?php if ($rememberme===TRUE) echo 'checked="checked"'; ?> />
 				<?php _e("Remember me on this computer");?>
 	        </label>
         </div>
