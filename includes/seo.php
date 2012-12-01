@@ -151,8 +151,8 @@ function catURL($category,$subcat="",$location=""){//returns de url for the cate
            else {
                 if ($category == strtolower(T_("Classifieds"))) $url='/'.$category.'/'.$locationurl;
                 else {
-                    if ($category!="") $url='/l/'.$category.'/'.$locationurl;
-                    else $url= "/";
+                    if ($category!="") $url='/'.$category.'/'.$locationurl;
+                    else $url= '/';
                 }
            }
        }
