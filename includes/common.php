@@ -500,7 +500,7 @@ function get_select_timezones($select_name='TIMEZONE',$selected=NULL)
         {            
             if ($selected==$city)
             {
-                $sel.= '<option selected=selected value="'.$city.'">'.$cityname.'</option>';
+                $sel.= '<option selected="selected" value="'.$city.'">'.$cityname.'</option>';
             }
             else $sel.= '<option value="'.$city.'">'.$cityname.'</option>';
         }
