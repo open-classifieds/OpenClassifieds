@@ -2,9 +2,7 @@
 	if ($_POST){//try to login
 	    require_once('../includes/bootstrap.php');//loading functions
 
-	    $rememberme = cP('rememberme');
-	    if ($rememberme == "1") $rememberme = true;
-	    else $rememberme = false;
+	    $rememberme = (cP('rememberme') == '1');
 
 	    if (ADMIN==cP('user') && ADMIN_PWD==cP('pwd') && checkCSRF('login_admin')){//it's the same as in config.php?
 			$_SESSION['admin']=cP('user');//setting the session
@@ -39,7 +37,7 @@
           	  <input name="pwd" type="password" class="text-long" onblur="validateText(this);"  lang="false" value="" />
             </div>
             <label class="checkbox">
-	        	<input type="checkbox" name="rememberme" id="rememberme" value="1" <?php if ($rememberme == "1") echo "checked ";?>  />
+	        	<input type="checkbox" name="rememberme" id="rememberme" value="1" <?php if ($rememberme) echo 'checked="checked"'; ?> />
 				<?php _e("Remember me on this computer");?>
 	        </label>
         </div>
