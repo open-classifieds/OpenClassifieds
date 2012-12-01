@@ -23,7 +23,7 @@ class Sitemap{
 
 
 	public static function generate(){//generates the sitemap returns the xml
-		if (function_exists(gzencode)){//the function needs to exist!
+		if (function_exists('gzencode')){//the function needs to exist!
 			$ocdb=phpMyDB::GetInstance();
 			$file=SITEMAP_FILE;
 		
