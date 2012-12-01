@@ -150,6 +150,7 @@ function generateTagPopularCategories(){//popular categories displayed in the ho
 
 ////////////////////////////////////////////////////////////
 function generatePopularItems($days=7,$limit=5,$idCategory){//displays the top X limit popular items from the last X days, possible by category
+	$pop='';
 	if (COUNT_POSTS){
 		$ocdb=phpMyDB::GetInstance();
 			
