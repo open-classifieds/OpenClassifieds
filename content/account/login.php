@@ -39,7 +39,7 @@ if ($_POST){//&& checkCSRF('login_user')
 	<p><label for="email"><?php _e("Email")?>:<br />
     <input type="text" name="email" id="email" maxlength="145" value="<?php echo $email;?>" onblur="validateEmail(this);" lang="false" /></label></p>
 	<p><label for="password"><?php _e("Password")?>:<br />
-    <input type="password" name="password" id="password" maxlength="<?php PASSWORD_SIZE?>" onblur="validateText(this);" lang="false" /></label></p>
+    <input type="password" name="password" id="password" maxlength="<?php echo PASSWORD_SIZE; ?>" onblur="validateText(this);" lang="false" /></label></p>
 	<p><label for="rememberme"><input type="checkbox" name="rememberme" id="rememberme" value="1" <?php if ($rememberme == "1") echo "checked ";?> style="width: 10px;" /><small><?php _e("Remember me on this computer");?></small></label></p>
 	<p><input name="submit" id="submit" type="submit" value="<?php _e("Submit")?>" /></p>
     <br />
