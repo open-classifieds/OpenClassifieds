@@ -56,7 +56,7 @@ else{//default not found in theme
 			<?php if (MAX_IMG_NUM>0){?>
 				<img style="float:left;margin-right:10px;" class="thumb" title="<?php echo $postTitle." ".$postTypeName." ".$fcategory;?>"  alt="<?php echo $postTitle." ".$postTypeName." ".$fcategory;?>"  src="<?php echo $postImage;?>" />
 			<?php }?>
-			<a title="<?php echo $postTitle." ".$postTypeName." ".$fcategory;?>" href="<?php echo SITE_URL.$postUrl;?>" ><h2><?php echo $postTitle;?></h2></a>		
+			<h2><a title="<?php echo $postTitle." ".$postTypeName." ".$fcategory;?>" href="<?php echo SITE_URL.$postUrl;?>" ><?php echo $postTitle;?></a></h2>
 			<br />		
 			<p>
 			    <?php echo $postTypeName;?>
