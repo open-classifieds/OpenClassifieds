@@ -84,7 +84,7 @@ function sb_locations($beg,$end){//locations list (state or city)
 ////////////////////////////////////////////////////////////
 function sb_infolinks($beg,$end){//site stats info and tools linsk rss map..
 	global $idCategory,$currentCategory,$type,$location;
-    $info.= '<b>'.T_("Total Ads").':</b> '.totalAds($idCategory).SEPARATOR
+	$info = '<b>'.T_("Total Ads").':</b> '.totalAds($idCategory).SEPARATOR
 		.' <b>'.T_("Views").':</b> '.totalViews($idCategory).SEPARATOR
 		.' <b><a href="'.rssURL().'?category='.$currentCategory.'&amp;type='.$type.'&amp;location='.$location.'">RSS</a></b>';
 		 if (MAP_KEY!="") $info.=SEPARATOR.'<b><a href="'.SITE_URL.'/'.mapURL().'?category='.$currentCategory.'&amp;type='.$type.'">'.T_("Map").'</a></b>';
