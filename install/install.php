@@ -94,7 +94,7 @@ define('MIN_SEARCH_CHAR',4);
 define('PASSWORD_SIZE',8);
 define('SEPARATOR',' | ');
 define('SIDEBAR_ORIG','account,item_tools,new,search,locations,categories_cloud,infolinks,comments,advertisement,donate,popular,links,theme,translator,rss');
-define('SIDEBAR','account,item_tools,search,locations,infolinks,advertisement,donate,popular');
+define('SIDEBAR','new,account,item_tools,search,locations,infolinks,advertisement,donate,popular');
 define('ADVERT_TOP','<script type=\"text/javascript\">google_ad_client = \"pub-9818256176049741\";google_ad_slot = \"5864321500\"; google_ad_width = 728;google_ad_height = 15;</script><script type=\"text/javascript\" src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\"></script>');
 define('ADVERT_SIDEBAR','<script type=\"text/javascript\">google_ad_client = \"pub-9818256176049741\";google_ad_slot = \"4162447127\";google_ad_width = 250;google_ad_height = 250;</script><script type=\"text/javascript\" src=\"http://pagead2.googlesyndication.com/pagead/show_ads.js\"></script>');
 define('CURRENCY','&euro;');

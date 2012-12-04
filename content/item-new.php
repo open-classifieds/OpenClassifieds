@@ -33,8 +33,12 @@ if (!isInSpamList(oc::get_ip())){//no spammer
 		if (PAYPAL_AMOUNT_CATEGORY)	$extra_sql = "concat(name,' - ',price,' ".PAYPAL_CURRENCY."')";
 		else $extra_sql = "concat(name,' - ',".PAYPAL_AMOUNT.",' ".PAYPAL_CURRENCY."')";
 	}
-	else $extra_sql = 'name';
-		
+	else
+	{
+		$script = "onChange=\"validateNumber(this);\"";
+		$extra_sql = 'name';
+	}
+
 	if (PARENT_POSTS) $parent_posts = '';
 	else $parent_posts = "where C.idCategoryParent!=0"; 
 	
@@ -87,9 +91,8 @@ if (!isInSpamList(oc::get_ip())){//no spammer
 	<?php if (LOCATION){?>
     <?php _e("Location");?>:<br />
 	<?php 
-	if (is_numeric(cP("location"))) $selectedLocation=cP("location");
     $query="SELECT idLocation,name,(select name from ".TABLE_PREFIX."locations where idLocation=C.idLocationParent) FROM ".TABLE_PREFIX."locations C order by idLocationParent, idLocation";
-	sqlOptionGroup($query,"location",$selectedLocation);
+	sqlOptionGroup($query,"location",$location);
 	?>
     <?php }?>
     <br />

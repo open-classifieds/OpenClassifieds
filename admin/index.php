@@ -21,7 +21,7 @@ require_once('header.php');
 <?php if (SAMBA){?>
 <div class="hero-unit">
 	<h2>Need a professional Open Classifieds site?</h2>
-	<p>Just for 50 EUR, commercial license, premium support, 3 premium themes and much more.</br>
+	<p>Just for 50 EUR, commercial license, premium support, free of ads, all the premium themes and much more.</br>
 		<a class="btn btn-primary btn-large" href="http://open-classifieds.com/download/"><i class=" icon-shopping-cart icon-white"></i> Buy now!</a>
 	</p>
 </div>

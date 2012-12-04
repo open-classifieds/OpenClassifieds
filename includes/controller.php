@@ -23,7 +23,12 @@
   	//$location = '';
     if (!is_null(cG("location"))) {
   	    $location=cG("location");
-  	    if (!is_numeric($location)) $location=getLocationNum($location);//if its not numeric we need to find the numeric value
+  	    //if its not numeric we need to find the numeric value
+  	    if (!is_numeric($location)) $location=getLocationNum($location);
+  	}
+  	elseif(is_numeric(cP("location")))
+  	{
+  		 $location=cP("location");
   	}
   	
   	if (!is_null(cG("contact"))) {
