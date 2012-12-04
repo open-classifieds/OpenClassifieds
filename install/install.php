@@ -81,7 +81,7 @@ if ($_POST)
 		}
 		$config_content.="define('CHARSET','UTF-8');
 define('LOCALE_EXT','');
-define('DEFAULT_THEME', 'wpClassifieds');
+define('DEFAULT_THEME', 'minimalistic');
 define('THEME_SELECTOR',false);
 define('THEME_MOBILE',false);
 define('ITEMS_PER_PAGE',10);

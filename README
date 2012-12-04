@@ -1,11 +1,20 @@
-Open Classifieds 1.8.3
-Release date:   08/11/2012
+Open Classifieds 1.8.4
+Release date:   05/12/2012
 License:        GPL v3
 Installation:   http://open-classifieds.com/install/
 Support:        http://open-classifieds.com/support/
 
 
 Changelog:
+
+###############################################
+1.8.4
+
+Many small issues fixed nothing really to worry:
+https://github.com/neo22s/OpenClassifieds/commits/183
+
+
+Thanks once more to emanwebdev for the help on this issues.
 
 
 ###############################################
