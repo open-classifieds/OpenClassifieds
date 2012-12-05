@@ -212,7 +212,7 @@ function totalViews($idCategory=NULL,$days=0){//return the total number of posts
 		$filter =" and (P.idCategory=$idCategory or P.idCategory in (select idCategory from ".TABLE_PREFIX."categories where idCategoryParent=$idCategory))";
 	}
 	if(is_numeric($days) && $days>0){
-		$filter =" and TIMESTAMPDIFF(DAY,H.hitTime,now())<=$days";
+		$filter.=" and TIMESTAMPDIFF(DAY,H.hitTime,now())<=$days";
 	}	
 	$query="SELECT count(P.idPost) FROM ".TABLE_PREFIX."posts P 
 					inner join ".TABLE_PREFIX."postshits H 
