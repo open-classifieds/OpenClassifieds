@@ -13,7 +13,8 @@ Changelog:
 Many small issues fixed nothing really to worry:
 https://github.com/neo22s/OpenClassifieds/commits/183
 https://github.com/neo22s/OpenClassifieds/commits/184
-All themes deleted from repo except minimalistc, also improved the theme.
+All themes deleted from repo except minimalistc, improved the theme.
+Also improvements in themes.
 
 
 Thanks once more to emanwebdev for the help on this issues.
@@ -37,44 +38,6 @@ Thanks to emanwebdev for the help on this issues.
 
 We also moved to github! collaborate :D
 https://github.com/neo22s/OpenClassifieds/
-
-Modified files:
-/admin/admin_sitemap.php
-/admin/access.php
-/admin/login.php
-/admin/logout.php
-/admin/listing.php
-/install/install.php
-/includes/common.php
-/includes/item-common.php
-/includes/controller.php
-/includes/seo.php
-/includes/classes/captha.php
-/includes/classes/oc.php
-/includes/classes/phpseo.php
-/content/contact.php:
-/content/item-manage.php:
-/content/item-new.php:
-/content/item.php:
-/content/account/register.php:
-/themes/hostpel/item.php:
-/themes/neoMobile/item.php:
-/themes/post-it-board/footer.php:
-/themes/wpClassifieds/item.php:
-
-
-----Premium themes, please write us and we send you the files.
-/themes/kamaleon/contact.php:
-/themes/kamaleon/item-new.php:
-/themes/kamaleon/item.php:
-/themes/moderndeluxe/contact.php:
-/themes/moderndeluxe/item-new.php:
-/themes/moderndeluxe/item.php:
-/themes/responsive/contact.php:
-/themes/responsive/item-new.php:
-/themes/responsive/item.php:
-/themes/yenii/item.php
-
 
 
 ###############################################

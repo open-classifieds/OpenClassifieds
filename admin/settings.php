@@ -428,7 +428,24 @@ function openAllSettings()
 	?>
 	</select>
 	<?php if (SAMBA){?>
-	<span class="help-block"><?php _e("For more themes please go to");?> <a href="http://www.open-classifieds.com/">Open Classifieds</a></span>
+	<br>
+	Preview our premium themes:
+	<ul>
+	<li><a title="Demo Open Classifieds" href="http://open-classifieds.com/demo/?theme=kamaleon">Kamaleon</a></li>
+	<li><a title="Demo Open Classifieds" href="http://open-classifieds.com/demo/?theme=responsive">Responsive</a></li>
+	<li><a title="Demo Open Classifieds" href="http://open-classifieds.com/demo/?theme=moderndeluxe">Moderndeluxe</a></li>
+	<li><a title="Demo Open Classifieds" href="http://open-classifieds.com/demo/?theme=yenii">yenii</a></li>
+	<li><a title="Demo Open Classifieds" href="http://open-classifieds.com/demo/?theme=wpClassifieds">wpClassifieds</a></li>
+	<li><a title="Demo Open Classifieds hostpel" href="http://open-classifieds.com/demo/?theme=hostpel">hostpel</a></li>
+	<li><a title="Demo Open Classifieds Primitive" href="http://open-classifieds.com/demo/?theme=primitive">Primitive</a></li>
+	<li><a title="Demo Open Classifieds Simply Fluid" href="http://open-classifieds.com/demo/?theme=simplyfluid">Simply Fluid</a></li>
+	<li><a title="Demo Open Classifieds Edit_80" href="http://open-classifieds.com/demo/?theme=edit_80">Edit_80</a></li>
+	<li><a title="Demo Open Classifieds anunciamex" href="http://open-classifieds.com/demo/?theme=anunciamex">anunciamex</a></li>
+	<li><a title="Demo Open Classifieds aqueous" href="http://open-classifieds.com/demo/?theme=aqueous">aqueous</a></li>
+	<li><a title="Demo Open Classifieds aqueous" href="http://open-classifieds.com/demo/?theme=gallery-blue">Gallery Blue</a></li>
+	<li><a href="http://open-classifieds.com/demo/?theme=post-it-board">Post it Board</a></li>
+	</ul>
+	<span class="help-block">Special offer 50€ all of them. <a href="http://open-classifieds.com/download/">Buy Now</a></span>
 	<?php }?>
 </p>
 <p>
