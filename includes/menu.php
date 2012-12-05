@@ -197,7 +197,7 @@ function totalAds($idCategory=NULL,$days=0){//return the total number of posts
 		$filter =" and (P.idCategory=$idCategory or P.idCategory in (select idCategory from ".TABLE_PREFIX."categories where idCategoryParent=$idCategory))";
 	}
 	if(is_numeric($days) && $days>0){
-		$filter =" and TIMESTAMPDIFF(DAY,P.insertDate,now())<=$days";
+		$filter .=" and TIMESTAMPDIFF(DAY,P.insertDate,now())<=$days";
 	}
 	$query="SELECT count(idPost) from ".TABLE_PREFIX."posts P where P.isConfirmed=1  $filter";//and P.isAvailable=1
 		
