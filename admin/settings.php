@@ -429,7 +429,7 @@ function openAllSettings()
 	</select>
 	<?php if (SAMBA){?>
 	<br>
-	Preview our premium themes:
+	Preview our 13 premium themes:
 	<ul>
 	<li><a title="Demo Open Classifieds" href="http://open-classifieds.com/demo/?theme=kamaleon">Kamaleon</a></li>
 	<li><a title="Demo Open Classifieds" href="http://open-classifieds.com/demo/?theme=responsive">Responsive</a></li>
@@ -445,7 +445,7 @@ function openAllSettings()
 	<li><a title="Demo Open Classifieds aqueous" href="http://open-classifieds.com/demo/?theme=gallery-blue">Gallery Blue</a></li>
 	<li><a href="http://open-classifieds.com/demo/?theme=post-it-board">Post it Board</a></li>
 	</ul>
-	<span class="help-block">Special offer 50€ all of them. <a href="http://open-classifieds.com/download/">Buy Now</a></span>
+	<span class="help-block">Special offer 50€ for 13 themes. <a href="http://open-classifieds.com/download/">Buy Now</a></span>
 	<?php }?>
 </p>
 <p>
