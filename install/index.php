@@ -187,7 +187,7 @@ else {?>
 <?php if (SAMBA){?>
 <div class="hero-unit">
 	<h2>Need professional help?</h2>
-	<p>Just for 50 EUR, <code>Installation</code>, commercial license, premium support, all premium themes and much more.</br>
+	<p>Just for 50 EUR, <code>Installation</code>, commercial license, premium support, 13 premium themes and much more.</br>
 		<a class="btn btn-primary btn-large" href="http://open-classifieds.com/download/"><i class=" icon-shopping-cart icon-white"></i> Buy now!</a>
 	</p>
 </div>
