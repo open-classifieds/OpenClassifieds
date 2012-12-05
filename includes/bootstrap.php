@@ -4,7 +4,7 @@
 ////////////////////////////////////////////////////////////
 
 //starts installation, you can erase this line to optimize code
-if(file_exists('install.lock')) die(header('Location: install/'));
+if(file_exists('install.lock')) die(header('Location: install/index.php'));
 
 //Initial defines
 define('VERSION','1.8.4');
