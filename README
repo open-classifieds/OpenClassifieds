@@ -1,5 +1,5 @@
 Open Classifieds 1.8.4
-Release date:   05/12/2012
+Release date:   11/12/2012
 License:        GPL v3
 Installation:   http://open-classifieds.com/install/
 Support:        http://open-classifieds.com/support/
@@ -10,9 +10,10 @@ Changelog:
 ###############################################
 1.8.4
 
-Many small issues fixed nothing really to worry:
+Many small issues fixed nothing really to worry.
 https://github.com/neo22s/OpenClassifieds/commits/183
 https://github.com/neo22s/OpenClassifieds/commits/184
+Improved installation process.
 All themes deleted from repo except minimalistc, improved the theme.
 Also improvements in themes.
 
