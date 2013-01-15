@@ -1,11 +1,31 @@
-Open Classifieds 1.8.4
-Release date:   11/12/2012
+Open Classifieds 1.8.5
+Release date:   15/01/2013
 License:        GPL v3
 Installation:   http://open-classifieds.com/install/
 Support:        http://open-classifieds.com/support/
 
 
 Changelog:
+
+###############################################
+1.8.5
+Cache disabled auto.
+Removed ocaku key.
+Small bugs.
+
+#	modified:   README
+#	modified:   admin/header.php
+#	modified:   admin/index.php
+#	deleted:    admin/rememberKEY.php
+#	modified:   admin/settings.php
+#	modified:   includes/bootstrap.php
+#	modified:   includes/classes/cache.php
+#	modified:   includes/item-common.php
+#	modified:   install/header.php
+#	modified:   install/index.php
+#	modified:   install/install.php
+
+
 
 ###############################################
 1.8.4

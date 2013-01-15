@@ -6,7 +6,7 @@ if ( !defined('__DIR__') ) define('__DIR__', dirname(__FILE__));
 
 define('SITE_ROOT',substr(__DIR__,0,-8));
 //die(SITE_ROOT);
-define('VERSION','1.8.4');
+define('VERSION','1.8.5');
 define('DEBUG', false);
 define('CHARSET', 'UTF-8');
 
@@ -220,7 +220,7 @@ i18n::load($locale_language,'messages','../languages/',CHARSET);
 			<?php if (SAMBA){?>
 			<li class="nav-header">Open Classifieds</li>
 			<li><a href="http://open-classifieds.com/themes/">Themes</a></li>
-			<li><a href="http://open-classifieds.com/support/">Support</a></li>
+			<li><a href="http://open-classifieds.com/download/">Support</a></li>
 			<li><a href="http://j.mp/ocdonate" target="_blank">
 					<img src="http://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" alt="">
 			</a></li>

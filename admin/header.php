@@ -132,7 +132,7 @@ require_once('../includes/bootstrap.php');
 			<?php if (SAMBA){?>
 			<li class="nav-header">Open Classifieds</li>
 			<li><a href="http://open-classifieds.com/themes/">Themes</a></li>
-			<li><a href="http://open-classifieds.com/support/">Support</a></li>
+			<li><a href="http://open-classifieds.com/download/">Support</a></li>
 			<li><a href="http://j.mp/ocdonate" target="_blank">
 					<img src="http://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" alt="">
 			</a></li>

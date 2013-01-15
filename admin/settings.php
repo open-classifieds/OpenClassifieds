@@ -445,7 +445,7 @@ function openAllSettings()
 	<li><a title="Demo Open Classifieds aqueous" href="http://open-classifieds.com/demo/?theme=gallery-blue">Gallery Blue</a></li>
 	<li><a href="http://open-classifieds.com/demo/?theme=post-it-board">Post it Board</a></li>
 	</ul>
-	<span class="help-block">Special offer 50€ for 13 themes. <a href="http://open-classifieds.com/download/">Buy Now</a></span>
+	<span class="help-block">Special offer $69.90 for 13 themes. <a href="http://open-classifieds.com/download/">Buy Now</a></span>
 	<?php }?>
 </p>
 <p>
@@ -843,7 +843,7 @@ function openAllSettings()
 		$cache_types= Cache::get_instance()->get_available_cache('array');
 		foreach($cache_types as $c=>$v){
 			if ($v[1]){
-				if($v[0]!=CACHE_TYPE) echo '<option>'.$v[0].'</option>';
+				if(strtolower($v[0])!=strtolower(CACHE_TYPE)) echo '<option>'.$v[0].'</option>';
 				else echo '<option selected=selected >'.$v[0].'</option>';
 			}
 		}
@@ -937,12 +937,8 @@ function openAllSettings()
 	<option <?php if(!OCAKU)  echo "selected=selected";?> >FALSE</option>
 	</select><?php _e("Enable/Disable Ocaku Classifieds Community");?>
 </p>
-<p>
-	<label><a href="http://api.ocaku.com/">Ocaku KEY</a>:</label>
-	<input name="OCAKU_KEY" value="<?php echo OCAKU_KEY;?>" class="span4" />
-    <span class="help-block"><?php _e("API key to use Ocaku. Do not lose this! if you reinstall copy paste here the key.");?> 
-    <a href="rememberKEY.php" target="_blank"> REMEMBER KEY</a>.</span>
-</p>
+<input type="hidden" name="OCAKU_KEY" value="<?php echo OCAKU_KEY;?>" class="span4" />
+
 </fieldset>
 </div>
 

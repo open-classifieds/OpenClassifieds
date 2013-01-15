@@ -23,7 +23,7 @@ class Cache {
      * @param $exp_time when expires the cache
      * @param $params extra params to load the cache
      */
-    public static function get_instance($type='auto',$exp_time=3600,$params='cache/')
+    public static function get_instance($type='filecache',$exp_time=3600,$params='cache/')
     {
         if (!isset(self::$instance))//doesn't exists the isntance
         {
@@ -290,12 +290,12 @@ class Cache {
 	        break;
 	        
 	        case 'auto'://try to auto select a cache system
-		    	if     (function_exists('eaccelerator_get'))$this->cache_type = 'eaccelerator';                                       
+		    	/*if     (function_exists('eaccelerator_get'))$this->cache_type = 'eaccelerator';                                       
 				elseif (function_exists('apc_fetch'))    	$this->cache_type = 'apc' ;                                     
 				elseif (function_exists('xcache_get'))  	$this->cache_type = 'xcache' ;                                        
 				elseif (class_exists('Memcache'))			$this->init_memcache();
 				elseif (class_exists('fileCache'))			$this->init_filecache();
-				else $this->cache_error('not any compatible cache was found');
+				else $this->cache_error('not any compatible cache was found');*/
 	        break;
 	        
 	        default://not any cache selected or wrong one selected
@@ -383,8 +383,7 @@ class Cache {
     private function cache_error($msg)
     {
     	trigger_error('<br /><b>wrapperCache error</b>: '.$msg.
-	        		'<br />If you want you can try with \'auto\' for auto select a compatible cache. 
-	        		<br />Or choose a supported cache from list:'.$this->get_available_cache(), E_USER_ERROR);
+	        		'<br />Choose a supported cache from list:'.$this->get_available_cache(), E_USER_ERROR);
     }
 }
 

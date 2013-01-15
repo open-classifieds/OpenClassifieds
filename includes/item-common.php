@@ -552,7 +552,7 @@ function newPost(){
 					}
 					
 					if (!CONFIRM_POST) jsRedirect($linkConfirm);
-					else require_once('../includes/footer.php');
+					else require_once('../content/footer.php');
 					
 					die();
 				}
@@ -560,7 +560,7 @@ function newPost(){
 			}//end akismet
 			else {//is spam!
 				echo "<div id='sysmessage'>".T_("Oops! Spam? If it was not spam, contact us")."</div>";
-				require_once('../includes/footer.php');
+				require_once('../content/footer.php');
 				exit;
 			}
 		}//email validation
