@@ -838,7 +838,6 @@ function openAllSettings()
 <p>
 	<label><?php _e("Cache type");?>:</label>
 	<select name="CACHE_TYPE" >
-		<option <?php if(CACHE_TYPE=='auto')  echo "selected=selected";?> >auto</option>
 		<?php 
 		$cache_types= Cache::get_instance()->get_available_cache('array');
 		foreach($cache_types as $c=>$v){
