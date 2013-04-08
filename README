@@ -1,10 +1,23 @@
-Open Classifieds 1.8.5
-Release date:   15/01/2013
+Open Classifieds 1.8.5.1
+Release date:   08/04/2013
 License:        GPL v3
 Installation:   http://open-classifieds.com/documentation/install/
 
-
 Changelog:
+
+###############################################
+1.8.5.1
+
+Tiny bugs mainly on HTML tags.
+Bug on cache large files.
+
+#   modified:   content/account/login.php
+#   modified:   content/item-manage.php
+#   modified:   includes/classes/cache.php
+#   modified:   includes/sidebar.php
+
+https://github.com/neo22s/OpenClassifieds/commit/99d217e2c91d44a4dc7dd8c0a04c5f53da13cce9
+
 
 ###############################################
 1.8.5

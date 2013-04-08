@@ -7,7 +7,7 @@
 if(file_exists('install.lock')) die(header('Location: install/index.php'));
 
 //Initial defines
-define('VERSION','1.8.5');
+define('VERSION','1.8.5.1');
 //if you change this to true, returns error in the page instead of email, also enables debug from phpMyDB and disables disqus
 define('DEBUG',false);
 
