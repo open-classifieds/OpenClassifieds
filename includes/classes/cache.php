@@ -565,7 +565,7 @@ class fileCache {
                     mkdir($cache_dir, 0755,TRUE);
 		        }
                 $filename = $cache_dir.$filename;
-                oc::fwrite($file, $values);
+                oc::fwrite($filename, $values);
                 
 			}//end if different
 		}

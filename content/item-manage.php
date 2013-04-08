@@ -32,6 +32,7 @@ if (cG("pwd")&&is_numeric(cG("post"))){//delete ,activate or deactivate
 	elseif ($action=="activate"){
 		if (MODERATE_POST && !isset($_SESSION['admin']) ) { //if moderation is set  we don't allow to activate unless you are the admin
 			echo "<div id='sysmessage'>".T_("In few hours your advertisement will be displayed.")."</div>";
+			$ocdb->update(TABLE_PREFIX."posts","isAvailable=1,isConfirmed=0","idPost=$post_id and password='$post_password'");
 		}
 		else		activatePost($post_id,$post_password);
 	}
