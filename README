@@ -13,10 +13,12 @@ Bug on cache large files.
 
 #   modified:   content/account/login.php
 #   modified:   content/item-manage.php
+#   modified:   includes/bootstrap.php
 #   modified:   includes/classes/cache.php
 #   modified:   includes/sidebar.php
 
 https://github.com/neo22s/OpenClassifieds/commit/99d217e2c91d44a4dc7dd8c0a04c5f53da13cce9
+https://github.com/neo22s/OpenClassifieds/commit/0a67f579ae39cf7037ff53e71ce1114346507710
 
 
 ###############################################
