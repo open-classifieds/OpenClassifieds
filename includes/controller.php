@@ -214,18 +214,22 @@
 		$advs=false;
 		if (strlen(cG("title"))>=MIN_SEARCH_CHAR){
 			$filter.= " and p.title like '%".cG("title")."%' ";
+            $order="p.insertDate Desc";
 			$advs=true;
 		}
 		if (strlen(cG("desc"))>=MIN_SEARCH_CHAR){
 			$filter.= " and p.description like '%".cG("desc")."%' ";
+            $order="p.insertDate Desc";
 			$advs=true;
 		}
 		if (is_numeric(cG("price"))){
 			$filter.= " and p.price<=".cG("price")." ";
+            $order="p.insertDate Desc";
 			$advs=true;
 		}
 		if (strlen(cG("place"))>=MIN_SEARCH_CHAR){
 			$filter.= " and p.place like '%".cG("place")."%' ";
+            $order="p.insertDate Desc";
 			$advs=true;
 		}
 		if (cG("sort")!=""){
